@@ -27,6 +27,11 @@
             <constraint field="limit::points" scope="roster" value="33.0" percentValue="true" shared="true" includeChildSelections="false" includeChildForces="false" id="ade3-c492-3616-74dc" type="max"/>
           </constraints>
         </categoryLink>
+        <categoryLink id="3fb5-2e1b-e2f0-84e7" name="Mercenaries" hidden="false" targetId="968c-9412-4dd8-3ed8" primary="false">
+          <constraints>
+            <constraint field="selections" scope="roster" value="25.0" percentValue="true" shared="true" includeChildSelections="false" includeChildForces="false" id="47c8-a7d4-eb00-5916" type="max"/>
+          </constraints>
+        </categoryLink>
       </categoryLinks>
     </forceEntry>
     <forceEntry id="8c2c-e1bc-0672-96f4" name="Errantry Crusade" publicationId="6259-c285-baa7-2aed" page="34" hidden="false">
@@ -50,6 +55,11 @@
         <categoryLink id="de37-2833-921c-c7a1" name="Rare" hidden="false" targetId="41ac-8b29-caf2-1245" primary="false">
           <constraints>
             <constraint field="limit::points" scope="roster" value="33.0" percentValue="true" shared="true" includeChildSelections="false" includeChildForces="false" id="4bea-8c70-4312-e3dc" type="max"/>
+          </constraints>
+        </categoryLink>
+        <categoryLink id="544d-4620-8c11-04bd" name="Mercenaries" hidden="false" targetId="968c-9412-4dd8-3ed8" primary="false">
+          <constraints>
+            <constraint field="selections" scope="roster" value="25.0" percentValue="true" shared="true" includeChildSelections="false" includeChildForces="false" id="f7c4-58ec-3db6-d889" type="max"/>
           </constraints>
         </categoryLink>
       </categoryLinks>

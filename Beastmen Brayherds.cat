@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="cbca-3690-f65e-f73d" name="Beastmen Brayherds" revision="1" battleScribeVersion="2.03" authorName="Birddie Software" authorContact="birddiesoftware@gmail.com" library="false" gameSystemId="c46c-ea3c-1fc5-3d88" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication id="a2bd-e729-15fc-6618" name="Arcane Journal - Warriors of Chaos"/>
+  </publications>
   <selectionEntries>
     <selectionEntry id="faa5-1aa6-a2aa-1492" name="Dragon Ogres" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -2958,7 +2961,7 @@ Note that this specual rule may only be used by a Beastlord or Wargor that has b
         <cost name="pts" typeId="points" value="130.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="4913-f5f8-a43d-714c" name="Warhoof" publicationId="b907-f7a4-2802-2a2e" page="95" hidden="false" collective="false" import="true" type="model">
+    <selectionEntry id="4913-f5f8-a43d-714c" name="Centigor Chieftain" publicationId="b907-f7a4-2802-2a2e" page="95" hidden="false" collective="false" import="true" type="model">
       <profiles>
         <profile id="16e9-ee03-969d-8a26" name="Warhoof" publicationId="b907-f7a4-2802-2a2e" page="95" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
           <characteristics>
@@ -4191,6 +4194,132 @@ Each time an enemy model is removed from play in this way, the Ghorgon recovers 
       </categoryLinks>
       <costs>
         <cost name="pts" typeId="points" value="215.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="20f5-c2de-0d78-c4ef" name="Gigantic Spawn of Chaos" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="0b26-6d4d-fda2-8b83" value="1.0">
+          <repeats>
+            <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0b26-6d4d-fda2-8b83" type="max"/>
+      </constraints>
+      <profiles>
+        <profile id="a292-7e9d-2a00-6728" name="Gigantic Spawn of Chaos" publicationId="a2bd-e729-15fc-6618" page="43" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
+          <characteristics>
+            <characteristic name="M" typeId="4d23232344415441232323">3D6</characteristic>
+            <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
+            <characteristic name="BS" typeId="425323232344415441232323">0</characteristic>
+            <characteristic name="S" typeId="5323232344415441232323">6</characteristic>
+            <characteristic name="T" typeId="5423232344415441232323">6</characteristic>
+            <characteristic name="W" typeId="5723232344415441232323">6</characteristic>
+            <characteristic name="I" typeId="4923232344415441232323">3</characteristic>
+            <characteristic name="A" typeId="4123232344415441232323">D6+1</characteristic>
+            <characteristic name="LD" typeId="4c4423232344415441232323">10</characteristic>
+            <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
+            <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
+            <characteristic name="MR" typeId="4d5223232344415441232323"/>
+            <characteristic name="Type" typeId="5479706523232344415441232323">Behemoth</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d0e4-a8a6-2d5a-f2b5" name="Slashing Talons" publicationId="a2bd-e729-15fc-6618" page="43" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="52616e676523232344415441232323">Combat</characteristic>
+            <characteristic name="Strength" typeId="537472656e67746823232344415441232323">As user</characteristic>
+            <characteristic name="Armor Piercing" typeId="29b7-bacf-c845-c96c">-1</characteristic>
+            <characteristic name="Special Rules" typeId="ca33-106b-5e61-5a3c"/>
+          </characteristics>
+        </profile>
+        <profile id="0f51-d514-857f-0309" name="Gnashing Maws" publicationId="a2bd-e729-15fc-6618" page="43" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="52616e676523232344415441232323">Combat</characteristic>
+            <characteristic name="Strength" typeId="537472656e67746823232344415441232323">As user</characteristic>
+            <characteristic name="Armor Piercing" typeId="29b7-bacf-c845-c96c">-2</characteristic>
+            <characteristic name="Special Rules" typeId="ca33-106b-5e61-5a3c">Strikes Last
+
+In combat, this model may choose to make one of its attacks each turn with this weapon. For each Wound an enemy unit loses as a result of an attack made with this weapon, this model immediately recovers a single lost Wound.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="da43-61f2-3757-9339" name="Armor Bane (X)" hidden="false" targetId="7eb4-7bce-00d2-6ddc" type="rule"/>
+        <infoLink id="c231-4009-3a0a-2946" name="Immune to Psychology" hidden="false" targetId="8de9-e265-8e60-3456" type="rule"/>
+        <infoLink id="9d05-14b0-29ea-ac01" name="Random Movement" hidden="false" targetId="2350-1f58-f63e-d9d9" type="rule"/>
+        <infoLink id="5b68-d415-8be2-ed71" name="Random Attacks" hidden="false" targetId="30f2-5b25-ff31-1d16" type="rule"/>
+        <infoLink id="2b5c-fde1-cbf5-1d24" name="Stomp Attacks (X)" hidden="false" targetId="f765-018b-b3d7-de34" type="rule"/>
+        <infoLink id="c8df-65a0-18e9-3fc4" name="Unbreakable" hidden="false" targetId="b865-dd35-76f9-6b03" type="rule"/>
+        <infoLink id="84cf-4986-deb8-052c" name="Close Order" hidden="false" targetId="5e87-b462-1458-7a74" type="rule"/>
+        <infoLink id="b5df-1efd-4d9f-8058" name="First Charge" hidden="false" targetId="6ab6-2eb6-a425-d1de" type="rule"/>
+        <infoLink id="fda4-82f2-8dc0-7d5b" name="Large Target" hidden="false" targetId="5982-ec1f-c586-6d66" type="rule"/>
+        <infoLink id="4855-deb0-c52b-5cd1" name="Timmm-berrr!" hidden="false" targetId="45bb-e5cf-8c9b-cf1a" type="rule"/>
+        <infoLink id="5fd5-af4a-5014-62e4" name="Terror" hidden="false" targetId="2d27-d702-9e61-39aa" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="b562-b75a-af27-759c" name="New CategoryLink" hidden="false" targetId="41ac-8b29-caf2-1245" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="ffce-5f9e-06ff-0b72" name="Spawn Type" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="021a-f4d4-3322-fc42" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="3e94-7668-97fe-7b8d" name="Spawn of Tzeentch" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3897-1c77-0f1f-7879" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="da08-5275-98cb-35b2" name="Flaming Attacks" hidden="false" targetId="e058-98b8-2527-5145" type="rule"/>
+                <infoLink id="74d7-7894-5b82-25e6" name="Magical Attacks" hidden="false" targetId="94c4-3add-0704-8c04" type="rule"/>
+                <infoLink id="fb64-8f76-e57c-0132" name="Magic Resistance (-2)" hidden="false" targetId="32e6-fa14-a93c-aa3d" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7004-e199-7429-e8c2" name="Spawn of Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2b29-92b8-222e-181a" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="9c16-a172-83a4-abdc" name="Strike First" hidden="false" targetId="f9b1-c402-c396-dbbd" type="rule"/>
+                <infoLink id="311e-a8c8-3ac3-03d0" name="Counter Charge" hidden="false" targetId="7299-4748-4ba0-f910" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="74f1-8016-12d2-1697" name="Spawn of Nurgle" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6e13-8f10-ec93-101f" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="677a-4256-4c53-edf0" name="Poisoned Attacks" hidden="false" targetId="1a7b-d4f0-ba03-04a4" type="rule"/>
+                <infoLink id="6c7f-e295-4732-a4d5" name="Regeneration (5+)" hidden="false" targetId="6917-6443-03f5-2f38" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="25.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9236-2657-5889-1fa4" name="Spawn of Khorne" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3c4a-1374-da8f-0635" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="ae6f-335d-542f-6afb" name="Killing Blow" hidden="false" targetId="f476-ed24-c451-6e04" type="rule"/>
+                <infoLink id="ad32-2ace-fa26-f4e7" name="Impact Hits (X)" hidden="false" targetId="3de4-6e3c-074a-f210" type="rule"/>
+              </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="20.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="145.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>

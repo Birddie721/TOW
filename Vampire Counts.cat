@@ -73,6 +73,9 @@
                   <infoLinks>
                     <infoLink id="e51f-7afa-95b8-c920" name="Shield" hidden="false" targetId="9665-15b9-13e6-aa51" type="profile"/>
                   </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="f070-3c40-19b8-0278" name="Great Weapon" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
@@ -196,6 +199,9 @@ However, if the winning side significantly outnumbers the losing side, it will o
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3aa1-ee3f-3760-e216" name="Skeleton Warriors" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -310,6 +316,9 @@ However, if the winning side significantly outnumbers the losing side, it will o
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="65d3-49a0-12da-706e" name="Zombies" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -377,6 +386,9 @@ However, if the winning side significantly outnumbers the losing side, it will o
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="42d9-4137-7adb-fb74" name="Grave Guard" hidden="true" collective="false" import="true" type="unit">
       <comment>Core</comment>
@@ -464,6 +476,9 @@ However, if the winning side significantly outnumbers the losing side, it will o
                   <infoLinks>
                     <infoLink id="af69-d1ec-49a0-933a" name="Shield" hidden="false" targetId="9665-15b9-13e6-aa51" type="profile"/>
                   </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="fc56-1211-fe04-b647" name="Great Weapon" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
@@ -587,6 +602,9 @@ However, if the winning side significantly outnumbers the losing side, it will o
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="1526-3fb3-a1fa-1be4" name="Crypt Ghouls" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -666,6 +684,9 @@ However, if the winning side significantly outnumbers the losing side, it will o
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="72d0-8318-e6e2-84d0" name="Crypt Horrors" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -765,6 +786,9 @@ However, if the winning side significantly outnumbers the losing side, it will o
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="101a-92b8-33c4-44c4" name="Bat Swarms" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
@@ -808,6 +832,9 @@ However, if the winning side significantly outnumbers the losing side, it will o
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7402-e0fe-b435-a81f" name="Vargheists" hidden="false" collective="false" import="true" type="unit">
       <comment>Rare</comment>
@@ -862,7 +889,7 @@ However, if the winning side significantly outnumbers the losing side, it will o
                 <characteristic name="Range" typeId="52616e676523232344415441232323">Combat</characteristic>
                 <characteristic name="Strength" typeId="537472656e67746823232344415441232323">As user</characteristic>
                 <characteristic name="Armor Piercing" typeId="29b7-bacf-c845-c96c">-2</characteristic>
-                <characteristic name="Special Rules" typeId="ca33-106b-5e61-5a3c"></characteristic>
+                <characteristic name="Special Rules" typeId="ca33-106b-5e61-5a3c"/>
               </characteristics>
             </profile>
           </profiles>
@@ -904,6 +931,9 @@ However, if the winning side significantly outnumbers the losing side, it will o
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a5b4-bcc3-4c5f-d94b" name="Fell Bats" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -963,6 +993,9 @@ However, if the winning side significantly outnumbers the losing side, it will o
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2233-4dc3-aada-e30f" name="Spirit Hosts" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
@@ -1025,9 +1058,11 @@ However, if the winning side significantly outnumbers the losing side, it will o
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c3b5-7552-7aa8-2bae" name="Blood Knights" hidden="false" collective="false" import="true" type="unit">
-      <comment></comment>
       <modifiers>
         <modifier type="increment" field="6339-de4d-ee03-5ea0" value="1.0">
           <repeats>
@@ -1116,6 +1151,9 @@ However, if the winning side significantly outnumbers the losing side, it will o
                   <infoLinks>
                     <infoLink id="f60a-9e7e-bf29-5c56" name="Heavy Armour" hidden="false" targetId="65ae-52e6-e846-aa27" type="profile"/>
                   </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="cde7-0cdd-d491-34ac" name="Full Plate Armour" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
@@ -1209,6 +1247,9 @@ However, if the winning side significantly outnumbers the losing side, it will o
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d48b-76ba-fbb0-abe8" name="Black Knights" hidden="false" collective="false" import="true" type="unit">
       <comment>Special</comment>
@@ -1374,6 +1415,9 @@ However, if the winning side significantly outnumbers the losing side, it will o
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="082d-eb4f-e35a-07d8" name="Black Knights" hidden="true" collective="false" import="true" type="unit">
       <comment>Core</comment>
@@ -1556,6 +1600,9 @@ However, if the winning side significantly outnumbers the losing side, it will o
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="037c-ab63-b985-3c1c" name="Dire Wolves" hidden="false" collective="false" import="true" type="unit">
       <rules>
@@ -1640,9 +1687,11 @@ However, if the winning side significantly outnumbers the losing side, it will o
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3d71-8e91-633f-ed40" name="Hexwraiths" hidden="false" collective="false" import="true" type="unit">
-      <comment></comment>
       <modifiers>
         <modifier type="increment" field="1293-2b9b-7c87-6ad9" value="1.0">
           <repeats>
@@ -1742,6 +1791,9 @@ However, if the winning side significantly outnumbers the losing side, it will o
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8ba2-2217-6695-792d" name="Corpse Cart" publicationId="e35c-f8d7-876c-b441" page="18" hidden="false" collective="false" import="true" type="unit">
       <constraints>
@@ -1970,6 +2022,9 @@ Note that this is cumulative with the Indomitable (X) special rule (see page 27)
           <infoLinks>
             <infoLink id="9847-924d-e9db-434b" name="Nightmare" hidden="false" targetId="1f54-2933-e123-640c" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="21b2-47e3-620c-f857" name="Wraith" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -2003,6 +2058,9 @@ Note that this is cumulative with the Indomitable (X) special rule (see page 27)
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -2434,6 +2492,9 @@ Note that this is not cumulative with the Indomitable (X) special rule (see page
               </entryLinks>
             </entryLink>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="25.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -2676,6 +2737,9 @@ Note that this is not cumulative with the Indomitable (X) special rule (see page
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5774-13f5-8816-e898" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebae-a57a-4b35-0a6f" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -2883,6 +2947,9 @@ Note that this is not cumulative with the Indomitable (X) special rule (see page
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="589c-515b-a2c0-de27" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac3b-5f55-64e3-1c37" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -2896,6 +2963,9 @@ Note that this is not cumulative with the Indomitable (X) special rule (see page
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5fdc-af19-8fd7-b02b" type="max"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="60f1-5068-b9f6-3436" name="Level 2 Wizard" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -3079,6 +3149,9 @@ Note that this is not cumulative with the Indomitable (X) special rule (see page
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12fc-2092-4179-f2c0" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8dfa-5909-d6a8-58cc" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -3092,6 +3165,9 @@ Note that this is not cumulative with the Indomitable (X) special rule (see page
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f70a-a9c4-c1ca-d3fd" type="max"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="7adb-dcd6-4dee-bd54" name="Level 4 Wizard" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
@@ -3260,6 +3336,9 @@ Note that this is not cumulative with the Indomitable (X) special rule (see page
           <entryLinks>
             <entryLink id="ae15-c5d9-24f1-3638" name="Magic Standards" hidden="false" collective="false" import="true" targetId="49c9-278d-4053-9b8f" type="selectionEntryGroup"/>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="25.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="6206-639d-f24d-de2f" name="General" hidden="true" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -3293,6 +3372,9 @@ Note that this is not cumulative with the Indomitable (X) special rule (see page
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ce1-4799-6365-7535" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cee2-08eb-39d9-5a21" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -3616,6 +3698,9 @@ Note that this is not cumulative with the Indomitable (X) special rule (see page
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce69-1720-f67c-ee24" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="183c-9bfc-36ea-b88f" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -3878,7 +3963,7 @@ Note that this is not cumulative with the Indomitable (X) special rule (see page
                 <characteristic name="Range" typeId="52616e676523232344415441232323">Combat</characteristic>
                 <characteristic name="Strength" typeId="537472656e67746823232344415441232323">As user</characteristic>
                 <characteristic name="Armor Piercing" typeId="29b7-bacf-c845-c96c">-2</characteristic>
-                <characteristic name="Special Rules" typeId="ca33-106b-5e61-5a3c"></characteristic>
+                <characteristic name="Special Rules" typeId="ca33-106b-5e61-5a3c"/>
               </characteristics>
             </profile>
           </profiles>
@@ -3920,6 +4005,9 @@ Note that this is not cumulative with the Indomitable (X) special rule (see page
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9e7f-ac8f-adc0-8278" name="Terrorgheist" publicationId="e35c-f8d7-876c-b441" page="21" hidden="true" collective="false" import="true" type="upgrade">
       <comment>Special</comment>
@@ -4079,6 +4167,9 @@ Effect: Until your next Start of Turn sub-phase, this model may re-roll any roll
           <infoLinks>
             <infoLink id="6de9-9413-1881-51fe" name="Hand Weapon" hidden="false" targetId="c148-c9dc-176e-bf50" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="d0e0-4062-37b3-1878" name="Spirit Horde" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -4109,6 +4200,9 @@ Effect: Until your next Start of Turn sub-phase, this model may re-roll any roll
             <infoLink id="f360-efe6-5b15-9fcc" name="Hand Weapon" hidden="false" targetId="c148-c9dc-176e-bf50" type="profile"/>
             <infoLink id="3b9f-c0c1-05a0-ca15" name="Random Attacks" hidden="false" targetId="30f2-5b25-ff31-1d16" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -4182,6 +4276,9 @@ Effect: Until your next Start of Turn sub-phase, this model may re-roll any roll
           <infoLinks>
             <infoLink id="b296-f7ed-44b4-5b65" name="Hand Weapon" hidden="false" targetId="c148-c9dc-176e-bf50" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="f492-60bf-3152-eddf" name="Spirit Horde" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -4212,6 +4309,9 @@ Effect: Until your next Start of Turn sub-phase, this model may re-roll any roll
             <infoLink id="89eb-8f38-3a90-cc6d" name="Hand Weapon" hidden="false" targetId="c148-c9dc-176e-bf50" type="profile"/>
             <infoLink id="28a3-f85d-a9ea-2c1e" name="Random Attacks" hidden="false" targetId="30f2-5b25-ff31-1d16" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
@@ -4359,7 +4459,7 @@ In combat, this model must make one of its attacks each turn with this weapon.</
           <characteristics>
             <characteristic name="Range" typeId="52616e676523232344415441232323">Combat</characteristic>
             <characteristic name="Strength" typeId="537472656e67746823232344415441232323">As user</characteristic>
-            <characteristic name="Armor Piercing" typeId="29b7-bacf-c845-c96c"></characteristic>
+            <characteristic name="Armor Piercing" typeId="29b7-bacf-c845-c96c"/>
             <characteristic name="Special Rules" typeId="ca33-106b-5e61-5a3c">Poisoned Attacks, Strike First
 
 In combat, this model may make one of its attacks each turn with this weapon.</characteristic>

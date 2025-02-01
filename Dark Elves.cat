@@ -2599,48 +2599,6 @@ A model equipped with a lash &amp; buckler improves its armour value by 1.</char
                 </selectionEntry>
               </selectionEntries>
             </selectionEntryGroup>
-            <selectionEntryGroup id="f14b-6e1e-33f6-460b" name="Special Rules" hidden="false" collective="false" import="true">
-              <selectionEntries>
-                <selectionEntry id="0a50-e613-aa7d-4445" name="Fire &amp; Flee" hidden="false" collective="true" import="true" type="upgrade">
-                  <modifiers>
-                    <modifier type="increment" field="6634-71d0-2a8c-095f" value="1.0">
-                      <repeats>
-                        <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" repeats="1" roundUp="false"/>
-                      </repeats>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac59-4a31-5321-8979" type="max"/>
-                    <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="6634-71d0-2a8c-095f" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="ac92-5185-a886-a5eb" name="Fire &amp; Flee" hidden="false" targetId="5e33-78c7-4337-ab45" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="points" value="1.0"/>
-                  </costs>
-                </selectionEntry>
-                <selectionEntry id="2602-88b6-6805-6bb8" name="Scouts" hidden="false" collective="true" import="true" type="upgrade">
-                  <modifiers>
-                    <modifier type="increment" field="c316-d03f-21a8-65a1" value="1.0">
-                      <repeats>
-                        <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" repeats="1" roundUp="false"/>
-                      </repeats>
-                    </modifier>
-                  </modifiers>
-                  <constraints>
-                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d674-d13e-f583-caa4" type="max"/>
-                    <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="c316-d03f-21a8-65a1" type="max"/>
-                  </constraints>
-                  <infoLinks>
-                    <infoLink id="301c-ed9a-a991-a137" name="Scouts" hidden="false" targetId="9083-dd44-53fb-9a0d" type="rule"/>
-                  </infoLinks>
-                  <costs>
-                    <cost name="pts" typeId="points" value="1.0"/>
-                  </costs>
-                </selectionEntry>
-              </selectionEntries>
-            </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
             <cost name="pts" typeId="points" value="16.0"/>
@@ -2699,6 +2657,52 @@ A model equipped with a lash &amp; buckler improves its armour value by 1.</char
               <costs>
                 <cost name="pts" typeId="points" value="6.0"/>
               </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="faf3-c32e-841c-b0b1" name="Special Rules" hidden="false" collective="false" import="true">
+          <selectionEntries>
+            <selectionEntry id="fddf-0a20-1451-ed7c" name="Fire &amp; Flee" hidden="false" collective="true" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="4172-c9af-db96-973b" value="1.0">
+                  <repeats>
+                    <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+                <modifier type="increment" field="points" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="5b81-6099-f428-7b7b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1dd9-779b-4677-d983" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4979-ba54-adc6-03da" type="max"/>
+                <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="4172-c9af-db96-973b" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="0345-9faf-0948-09e1" name="Fire &amp; Flee" hidden="false" targetId="5e33-78c7-4337-ab45" type="rule"/>
+              </infoLinks>
+            </selectionEntry>
+            <selectionEntry id="e61f-d32b-0288-be9a" name="Scouts" hidden="false" collective="true" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="increment" field="cb10-3af8-3d45-c97b" value="1.0">
+                  <repeats>
+                    <repeat field="limit::points" scope="roster" value="1000.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+                <modifier type="increment" field="points" value="1.0">
+                  <repeats>
+                    <repeat field="selections" scope="5b81-6099-f428-7b7b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="1dd9-779b-4677-d983" repeats="1" roundUp="false"/>
+                  </repeats>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3794-cc59-e05e-ebe7" type="max"/>
+                <constraint field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="cb10-3af8-3d45-c97b" type="max"/>
+              </constraints>
+              <infoLinks>
+                <infoLink id="a995-f899-1842-b05d" name="Scouts" hidden="false" targetId="9083-dd44-53fb-9a0d" type="rule"/>
+              </infoLinks>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
