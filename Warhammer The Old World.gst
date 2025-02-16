@@ -484,7 +484,7 @@ A model equipped with an Ironfist improves its armor value by 1.</characteristic
             <characteristic name="Range" typeId="52616e676523232344415441232323">Combat</characteristic>
             <characteristic name="Strength" typeId="537472656e67746823232344415441232323">+1</characteristic>
             <characteristic name="Armor Piercing" typeId="29b7-bacf-c845-c96c"/>
-            <characteristic name="Special Rules" typeId="ca33-106b-5e61-5a3c">Frenzy, Magical Attacks</characteristic>
+            <characteristic name="Special Rules" typeId="ca33-106b-5e61-5a3c">Extra Attacks(+1), Impetuous, Magical Attacks</characteristic>
           </characteristics>
         </profile>
       </profiles>
