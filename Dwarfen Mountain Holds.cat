@@ -5268,9 +5268,9 @@ Note that this modifier is not cumulative.</description>
             <characteristic name="BS" typeId="425323232344415441232323">3</characteristic>
             <characteristic name="S" typeId="5323232344415441232323">3</characteristic>
             <characteristic name="T" typeId="5423232344415441232323">4</characteristic>
-            <characteristic name="W" typeId="5723232344415441232323">3</characteristic>
+            <characteristic name="W" typeId="5723232344415441232323">2</characteristic>
             <characteristic name="I" typeId="4923232344415441232323">2</characteristic>
-            <characteristic name="A" typeId="4123232344415441232323">3</characteristic>
+            <characteristic name="A" typeId="4123232344415441232323">2</characteristic>
             <characteristic name="LD" typeId="4c4423232344415441232323">10</characteristic>
             <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
             <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
@@ -6350,9 +6350,9 @@ Note that this modifier is not cumulative.</description>
             <characteristic name="BS" typeId="425323232344415441232323">3</characteristic>
             <characteristic name="S" typeId="5323232344415441232323">3</characteristic>
             <characteristic name="T" typeId="5423232344415441232323">4</characteristic>
-            <characteristic name="W" typeId="5723232344415441232323">3</characteristic>
+            <characteristic name="W" typeId="5723232344415441232323">2</characteristic>
             <characteristic name="I" typeId="4923232344415441232323">2</characteristic>
-            <characteristic name="A" typeId="4123232344415441232323">3</characteristic>
+            <characteristic name="A" typeId="4123232344415441232323">2</characteristic>
             <characteristic name="LD" typeId="4c4423232344415441232323">10</characteristic>
             <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
             <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
@@ -7475,6 +7475,9 @@ The Dragonblade also grants the wielder a +1 modifier to their Attacks character
             <infoLink id="8936-30cf-75b0-72a6" name="Shield" hidden="false" targetId="9665-15b9-13e6-aa51" type="profile"/>
             <infoLink id="6d22-3645-fe8e-e2ae" name="Brace of Pistols (Combat)" hidden="false" targetId="b5a5-a68d-9c62-68a0" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="7627-52d0-fa96-d351" name="Borri Forkbeard" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -7508,6 +7511,9 @@ The Dragonblade also grants the wielder a +1 modifier to their Attacks character
             <infoLink id="7ef1-7d3b-b059-1fd5" name="Great Weapon" hidden="false" targetId="a088-d26f-3db7-2f48" type="profile"/>
             <infoLink id="af83-1f53-62e5-9de5" name="Light Armour" hidden="false" targetId="757d-d0fc-a004-1f02" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="ff20-dc55-a6bb-d508" name="Dragon Company Musician" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -7540,6 +7546,9 @@ The Dragonblade also grants the wielder a +1 modifier to their Attacks character
             <infoLink id="207c-700f-3177-d1c6" name="Hand Weapon" hidden="false" targetId="c148-c9dc-176e-bf50" type="profile"/>
             <infoLink id="5f5a-57dc-7405-8869" name="Brace of Pistols (Shooting)" hidden="false" targetId="59a2-b8ef-71b0-a2c8" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="d294-f0d7-03c4-142e" name="Dragon Company Standard Bearer" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -7572,6 +7581,9 @@ The Dragonblade also grants the wielder a +1 modifier to their Attacks character
             <infoLink id="a9d6-2ed8-b672-95d1" name="Hand Weapon" hidden="false" targetId="c148-c9dc-176e-bf50" type="profile"/>
             <infoLink id="1310-916f-e49f-a5c9" name="Brace of Pistols (Shooting)" hidden="false" targetId="59a2-b8ef-71b0-a2c8" type="profile"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
