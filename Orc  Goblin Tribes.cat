@@ -2602,6 +2602,9 @@ Note that this modifier is not cumulative.</description>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b681-d488-10b0-5507" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -3678,6 +3681,9 @@ Should you choose to fire a Doom Diver catapult indirectly, the skill of the cre
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0228-94ff-c9ce-e463" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="ad6a-da9a-1de9-1d0c" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -3923,6 +3929,9 @@ Should you choose to fire a Doom Diver catapult indirectly, the skill of the cre
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="1a73-3640-a396-ac60" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="0e4b-385c-ee0a-8e73" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -4193,6 +4202,9 @@ Note that, for the purposes of this rule, a unit of Orcs is considered to be any
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ddad-b54e-5ad1-945a" type="max"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -4391,6 +4403,9 @@ Note that, for the purposes of this rule, a unit of Orcs is considered to be any
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3651-461b-b532-8e1b" type="max"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -5448,6 +5463,9 @@ Note that, for the purposes of this rule, a unit of Orcs is considered to be any
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3409-5fea-9881-110e" type="max"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -5601,6 +5619,9 @@ Note that, for the purposes of this rule, a unit of Orcs is considered to be any
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b353-5538-b1af-9bde" type="max"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -6103,6 +6124,9 @@ D6:
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="6e0c-3a7e-82e3-7e95" name="War Boar" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -6951,6 +6975,9 @@ D6:
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d6d6-713d-f1e8-983d" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="414c-2a4e-a295-abab" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -7141,6 +7168,9 @@ D6:
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="5372-28b3-8079-7ada" type="max"/>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="2b6a-d7ac-0a30-fc58" type="max"/>
           </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -7285,6 +7315,9 @@ D6:
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="d3ae-ea3d-a9c6-32e2" name="War Boar" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -8140,10 +8173,15 @@ Note that the Glowy Green Amulet cannot be used against a perfect invocation.</c
       </costs>
     </selectionEntry>
     <selectionEntry id="a374-daad-f15d-dcd0" name="RH - &apos;Eadbuttin&apos; &apos;At*" publicationId="b907-f7a4-2802-2a2e" page="44" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="73be-217c-fa7a-528f" type="max"/>
+      </constraints>
       <profiles>
         <profile id="b57f-67a1-6a2a-f336" name="&apos;Eadbuttin&apos; &apos;At" publicationId="b907-f7a4-2802-2a2e" page="44" hidden="false" typeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" typeName="Arcane and Enchanted Item">
           <characteristics>
-            <characteristic name="Magic Property" typeId="4d616769632050726f706572747923232344415441232323">An &apos;Eadbuttin&apos; &apos;At gives its wearer the Impact Hits (1) special rule. This Impact Hit has the Armor Piercing characteristic of -2.</characteristic>
+            <characteristic name="Magic Property" typeId="4d616769632050726f706572747923232344415441232323">An &apos;Eadbuttin&apos; &apos;At gives its wearer the Impact Hits (1) special rule. This Impact Hit has the Armor Piercing characteristic of -2.
+
+0-1 per model per Errata V1.2</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8597,6 +8635,9 @@ Note that this item’s effects are in addition to the effects of rolling a natu
               </selectionEntries>
             </selectionEntryGroup>
           </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="7e17-2bb6-b03f-8354" name="War Boar" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>

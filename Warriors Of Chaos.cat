@@ -4727,6 +4727,9 @@ Effect: If this Bound spell is cast, all units within 6&quot; of this model (fri
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee48-3b33-9773-ed40" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="abcb-ddba-8482-53d5" type="min"/>
       </constraints>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b5b4-c0bb-8fde-fb9c" name="Frydaal The Chainmaker" publicationId="10d2-64c2-8243-ed86" page="35" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
@@ -4896,6 +4899,9 @@ No armour save is permitted against wounds caused by this weapon (Ward and Regen
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b134-ace4-4b18-01f4" type="max"/>
               </constraints>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -5407,6 +5413,7 @@ No armour save is permitted against wounds caused by this weapon (Ward and Regen
         <infoLink id="f44c-693f-fffa-1f30" name="Skirmishers" hidden="false" targetId="2ef8-58ca-2897-9630" type="rule"/>
         <infoLink id="f936-59e0-8d52-6822" name="Regeneration (5+)" hidden="false" targetId="6917-6443-03f5-2f38" type="rule"/>
         <infoLink id="0a9c-5d94-dc39-c1d5" name="Swiftstride" hidden="false" targetId="fdf8-c51a-139f-b492" type="rule"/>
+        <infoLink id="ac42-1cf5-aa66-f97e" name="Fear" hidden="false" targetId="67dc-8ec0-7713-ea41" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="bd31-9d8c-b201-e409" name="New CategoryLink" hidden="false" targetId="f2ef-b3e4-02b2-0e8b" primary="true"/>
@@ -5674,6 +5681,9 @@ No armour save is permitted against wounds caused by this weapon (Ward and Regen
                   <infoLinks>
                     <infoLink id="9329-7202-b0d2-66a4" name="Light Armour" hidden="false" targetId="757d-d0fc-a004-1f02" type="profile"/>
                   </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="7474-aa65-6b46-2f74" name="Heavy Armour" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
@@ -5713,6 +5723,9 @@ No armour save is permitted against wounds caused by this weapon (Ward and Regen
           <infoLinks>
             <infoLink id="c894-143a-25bf-06c8" name="Drilled" hidden="false" targetId="3fe0-4a62-3b25-997c" type="rule"/>
           </infoLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -5991,6 +6004,7 @@ In combat, this model may choose to make one of its attacks each turn with this 
         <infoLink id="758b-7dd3-2cde-533e" name="Swiftstride" hidden="false" targetId="fdf8-c51a-139f-b492" type="rule"/>
         <infoLink id="c4fe-c5dd-029f-96d4" name="Terror" hidden="false" targetId="2d27-d702-9e61-39aa" type="rule"/>
         <infoLink id="b4c3-a9da-495c-a8d7" name="Magic Resistance (-2)" hidden="false" targetId="32e6-fa14-a93c-aa3d" type="rule"/>
+        <infoLink id="782d-bd2f-5680-fba6" name="Close Order" hidden="false" targetId="5e87-b462-1458-7a74" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c0ae-1fa6-a465-3c41" name="New CategoryLink" hidden="false" targetId="41ac-8b29-caf2-1245" primary="true"/>
@@ -8157,6 +8171,9 @@ D6
               </costs>
             </selectionEntry>
           </selectionEntries>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
