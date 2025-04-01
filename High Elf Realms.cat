@@ -3390,8 +3390,6 @@ In combat, this model must make one of its attacks each turn with this weapon.</
           <entryLinks>
             <entryLink id="e1f0-bfd4-d814-44e8" name="Barded Elven Steed" hidden="false" collective="false" import="true" targetId="a66e-be5f-f10c-648d" type="selectionEntry"/>
             <entryLink id="b5a0-419e-c09a-3d5d" name="Sun Dragon" hidden="false" collective="false" import="true" targetId="037b-624c-76c3-8602" type="selectionEntry"/>
-            <entryLink id="8f6b-0d78-eae3-d6b6" name="Moon Dragon" hidden="false" collective="false" import="true" targetId="92bb-75df-53d2-61ea" type="selectionEntry"/>
-            <entryLink id="94bf-0835-c1df-c8c0" name="Star Dragon" hidden="false" collective="false" import="true" targetId="0536-d67d-5732-c774" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="83d3-abf4-f240-99fb" name="Mount" hidden="true" collective="false" import="true">
