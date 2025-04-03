@@ -1912,7 +1912,7 @@
         </selectionEntryGroup>
       </selectionEntryGroups>
       <costs>
-        <cost name="pts" typeId="points" value="125.0"/>
+        <cost name="pts" typeId="points" value="60.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8de2-143d-1f73-772d" name="Longbeards" hidden="true" collective="false" import="true" type="unit">
