@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <catalogue id="1858-4c28-b845-031f" name="Dwarfen Mountain Holds" revision="1" battleScribeVersion="2.03" authorName="Birddie Software" authorContact="birddiesoftware@gmail.com" library="false" gameSystemId="c46c-ea3c-1fc5-3d88" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <publications>
+    <publication id="7a93-3195-d2b2-3102" name="Arcane Journal - Empire of Man"/>
+  </publications>
   <forceEntries>
     <forceEntry id="ed29-84ee-ed9a-89d8" name="Royal Clan" publicationId="fc8a-2372-3e95-7ec6" hidden="false">
       <categoryLinks>
@@ -7589,6 +7592,163 @@ The Dragonblade also grants the wielder a +1 modifier to their Attacks character
       <costs>
         <cost name="pts" typeId="points" value="115.0"/>
       </costs>
+    </selectionEntry>
+    <selectionEntry id="baf1-88ed-b1b0-d466" name="Imperial Ogres" publicationId="7a93-3195-d2b2-3102" page="40" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="ed29-84ee-ed9a-89d8" type="atLeast"/>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" childId="2532-67d4-dc40-9eaa" type="atLeast"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dd0f-d679-e67e-3fc1" type="max"/>
+      </constraints>
+      <rules>
+        <rule id="39db-5963-39d1-31b9" name="Ogre Charge" publicationId="7a93-3195-d2b2-3102" page="40" hidden="false">
+          <description>The Armour Piercing characteristic of any Impact Hits caused by a model with this special rule is improved by the current Rank Bonus of its unit.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="21e1-21c9-06d2-2740" name="Armor Bane (X)" hidden="false" targetId="7eb4-7bce-00d2-6ddc" type="rule"/>
+        <infoLink id="3ca2-3334-c50d-1541" name="Close Order" hidden="false" targetId="5e87-b462-1458-7a74" type="rule"/>
+        <infoLink id="ae95-ae18-37ec-c142" name="Fear" hidden="false" targetId="67dc-8ec0-7713-ea41" type="rule"/>
+        <infoLink id="59a1-54fb-03d8-bea4" name="Impact Hits (X)" hidden="false" targetId="3de4-6e3c-074a-f210" type="rule"/>
+        <infoLink id="bf16-a1db-5423-8281" name="Mercenaries" hidden="false" targetId="f3a4-853c-22a7-8523" type="rule"/>
+        <infoLink id="d475-5c4f-b5b9-0a1c" name="Motley Crew" hidden="false" targetId="854b-2832-cd0e-1835" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="3008-768a-05fa-85aa" name="New CategoryLink" hidden="false" targetId="968c-9412-4dd8-3ed8" primary="true"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="b6eb-5d05-2d02-5bff" name="Imperial Ogre" hidden="false" collective="false" import="true" type="model">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0743-740c-7b77-6ee4" type="min"/>
+          </constraints>
+          <profiles>
+            <profile id="458e-36bb-af97-9431" name="Imperial Ogre" publicationId="7a93-3195-d2b2-3102" page="40" hidden="false" typeId="4d6f64656c23232344415441232323" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="4d23232344415441232323">6</characteristic>
+                <characteristic name="WS" typeId="575323232344415441232323">3</characteristic>
+                <characteristic name="BS" typeId="425323232344415441232323">3</characteristic>
+                <characteristic name="S" typeId="5323232344415441232323">4</characteristic>
+                <characteristic name="T" typeId="5423232344415441232323">4</characteristic>
+                <characteristic name="W" typeId="5723232344415441232323">3</characteristic>
+                <characteristic name="I" typeId="4923232344415441232323">2</characteristic>
+                <characteristic name="A" typeId="4123232344415441232323">3</characteristic>
+                <characteristic name="LD" typeId="4c4423232344415441232323">7</characteristic>
+                <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
+                <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
+                <characteristic name="MR" typeId="4d5223232344415441232323"/>
+                <characteristic name="Type" typeId="5479706523232344415441232323">Monsterous Infantry</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <infoLinks>
+            <infoLink id="7f28-ed6b-709e-c970" name="Hand Weapon" hidden="false" targetId="c148-c9dc-176e-bf50" type="profile"/>
+          </infoLinks>
+          <selectionEntryGroups>
+            <selectionEntryGroup id="3524-c549-242a-4ee6" name="Equipment" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c4c5-e18a-5bed-e7c5" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="a5a1-d6c2-4c7e-5032" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ebe2-94a2-2d3c-2af3" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="2e4e-a821-868d-584d" name="Great Weapon" hidden="false" targetId="a088-d26f-3db7-2f48" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="4.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="1775-b1bf-1c52-ba1e" name="Morning Star" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3647-07cf-afaa-c683" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="7811-8593-7a0d-1f66" name="Morning Star" hidden="false" targetId="1ce6-f3ab-2caf-1bb9" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="2.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="6b84-238a-4e01-613f" name="Light Cannon" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d4b-ee4a-53f7-f394" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="69fc-7577-95fc-51ad" name="Light Cannon" publicationId="7a93-3195-d2b2-3102" page="40" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="52616e676523232344415441232323">18&quot;</characteristic>
+                        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">4</characteristic>
+                        <characteristic name="Armor Piercing" typeId="29b7-bacf-c845-c96c">-1</characteristic>
+                        <characteristic name="Special Rules" typeId="ca33-106b-5e61-5a3c">Armour Bane (2)
+
+If the roll To Hit is successful when firing a light cannon, it causes D3 hits to the target enemy unit, rather than the usual one.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="points" value="8.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="0a35-ae33-ff9e-be45" name="Ogre Pistol" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8bb7-3a54-3a80-e1d1" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="d865-e96d-5015-748f" name="Ogre Pistol" publicationId="7a93-3195-d2b2-3102" page="40" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="52616e676523232344415441232323">24&quot;</characteristic>
+                        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">4</characteristic>
+                        <characteristic name="Armor Piercing" typeId="29b7-bacf-c845-c96c">-1</characteristic>
+                        <characteristic name="Special Rules" typeId="ca33-106b-5e61-5a3c">Armour Bane (1), Quick Shot</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="points" value="5.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="69ce-591a-380a-d41e" name="Armour" hidden="false" collective="false" import="true">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f81d-b8fb-4d61-8c44" type="min"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd9f-aa80-f408-3be5" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="6794-e7cf-c2cb-6e4d" name="Light Armour" hidden="false" collective="true" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b0d0-1d33-1b10-9628" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="ce80-20c7-de52-2ece" name="Light Armour" hidden="false" targetId="757d-d0fc-a004-1f02" type="profile"/>
+                  </infoLinks>
+                </selectionEntry>
+                <selectionEntry id="71d8-49b7-a1cb-82aa" name="Heavy Armour" hidden="false" collective="true" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6649-0eab-68ae-d601" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="922a-a73f-2da6-e546" name="Heavy Armour" hidden="false" targetId="65ae-52e6-e846-aa27" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="3.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+            </selectionEntryGroup>
+          </selectionEntryGroups>
+          <costs>
+            <cost name="pts" typeId="points" value="31.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
