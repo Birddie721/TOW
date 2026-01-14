@@ -119,7 +119,7 @@
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
-            <cost name="pts" typeId="points" value="56.0"/>
+            <cost name="pts" typeId="points" value="59.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>

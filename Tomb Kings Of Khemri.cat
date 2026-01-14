@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f647-2409-5834-7ae7" name="Tomb Kings Of Khemri" revision="1" battleScribeVersion="2.03" authorName="Birddie Software" authorContact="birddiesoftware@gmail.com" library="false" gameSystemId="c46c-ea3c-1fc5-3d88" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f647-2409-5834-7ae7" name="Tomb Kings Of Khemri" revision="1" battleScribeVersion="2.03" authorName="CSB Software" authorContact="birddiesoftware@gmail.com" library="false" gameSystemId="c46c-ea3c-1fc5-3d88" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="0db1-ce28-da27-1d5b" name="Arcane Journal - Tomb Kings of Khemri" shortName="AJ"/>
   </publications>
@@ -1579,7 +1579,7 @@ When making a To Wound for an attack made with this weapon, substitute the targe
             </selectionEntry>
           </selectionEntries>
           <costs>
-            <cost name="pts" typeId="points" value="43.0"/>
+            <cost name="pts" typeId="points" value="41.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -2050,7 +2050,7 @@ Note, however, that this bonus does not apply to any Bound spells cast by a Cask
           <description>If the crew of a Casket of Souls is reduced to zero Wounds, immediately roll a D6 for every unit (friend or foe) within 12&quot; of the model. On a roll of 4+, the unit suffers D6 Strength 3 hits, with no armor or Regeneration saves permitted (Ward saves can be attempted as normal). Once these hits are resolved, the Casket of Souls is removed from play.</description>
         </rule>
         <rule id="d629-bf8d-559c-54be" name="Vortex of Souls" publicationId="b907-f7a4-2802-2a2e" page="149" hidden="false">
-          <description>A Casket of Souls can cast Light Of Death and Light Of Protection (Ravening Hordes p149) with a Power Level of 3.</description>
+          <description>A Casket of Souls can cast Light Of Death and Light Of Protection (Ravening Hordes p149) with a Power Level of 2.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -3534,7 +3534,7 @@ When making a roll To Wound with this weapon, a roll of 4+ is always a success, 
             <characteristic name="Armor Piercing" typeId="29b7-bacf-c845-c96c">-2</characteristic>
             <characteristic name="Special Rules" typeId="ca33-106b-5e61-5a3c">Magical Attacks, Multiple Wounds (2), Requires Two Hands
 
-The Flail of Conquered Kings&apos; Strength modifier applies only during the first round of combat.</characteristic>
+The Flail of Conquered Kings&apos; Strength modifier applies only against enemy models the wielder charged this turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3804,7 +3804,7 @@ Note that this special rule is not cumulative. In other words, using it more tha
           <description>During the Command sub-phase of their turn, this character may attempt to drive a unit within their Command range to greater efforts by making a Leadership test (using their own Leadership). If this test is passed, until your next Start of Turn sub-phase that unit gains a +D3 modifier to its Initiative characteristic (to a maximum of 10).</description>
         </rule>
         <rule id="cd4a-8ab9-c20b-8b79" name="Stone Shaper" publicationId="0db1-ce28-da27-1d5b" page="42" hidden="false">
-          <description>During the Command sub-phase of their turn, if they are not engaged in combat, this character may nominate a single friendly Necrolith Colossus, Necrosphinx, unit of Ushabti or unit of Venerable Ushabti that is within their Command range. Until the end of this turn, the nominated unit improves the armour value of its Regeneration save by 1.</description>
+          <description>During the Command sub-phase of their turn, if they are not engaged in combat, this character may nominate a single friendly Necrolith Colossus, Necrosphinx, unit of Ushabti or unit of Venerable Ushabti that is within their Command range. Until the end of this turn, the nominated unit improves the Regeneration value of its Regeneration save by 1.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -5449,7 +5449,7 @@ In combat, this model may choose to make one of its attacks each turn with this 
             </selectionEntry>
           </selectionEntries>
           <costs>
-            <cost name="pts" typeId="points" value="43.0"/>
+            <cost name="pts" typeId="points" value="41.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -5989,7 +5989,7 @@ Monarchs of Nehekhara only.</characteristic>
             <characteristic name="Armor Piercing" typeId="29b7-bacf-c845-c96c">-1</characteristic>
             <characteristic name="Special Rules" typeId="ca33-106b-5e61-5a3c">Magical Attacks, Multiple Wounds (-2), Requires Two Hands
 
-The Flail of Skulls&apos; Strength modifier applies only during the first round of combat.</characteristic>
+The Flail of Skulls&apos; Strength modifier applies only against enemy models the wielder charged this turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>

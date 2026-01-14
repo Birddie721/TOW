@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9616-888e-288a-aba6" name="Orc &amp; Goblin Tribes" revision="1" battleScribeVersion="2.03" authorName="Birddie Software" authorContact="birddiesoftware@gmail.com" library="false" gameSystemId="c46c-ea3c-1fc5-3d88" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9616-888e-288a-aba6" name="Orc &amp; Goblin Tribes" revision="1" battleScribeVersion="2.03" authorName="CSB Software" authorContact="birddiesoftware@gmail.com" library="false" gameSystemId="c46c-ea3c-1fc5-3d88" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <forceEntries>
     <forceEntry id="f0d8-f49e-f3bc-e704" name="Troll Horde" publicationId="e64a-7cb7-c9fa-e1ff" page="32" hidden="false">
       <categoryLinks>
@@ -1788,6 +1788,7 @@ Note that this modifier is not cumulative.</description>
         <infoLink id="5d74-65ea-e246-4a7b" name="Armor Bane (X)" hidden="false" targetId="7eb4-7bce-00d2-6ddc" type="rule"/>
         <infoLink id="a1dd-9c36-6074-279d" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
         <infoLink id="4b7c-5d95-b81b-c676" name="Stupidity" hidden="false" targetId="2381-d3dd-1612-8d3a" type="rule"/>
+        <infoLink id="d870-fb9a-fdd7-b870" name="Motley Crew" hidden="false" targetId="854b-2832-cd0e-1835" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="3789-7966-9760-dae3" name="New CategoryLink" hidden="false" targetId="f2ef-b3e4-02b2-0e8b" primary="true"/>
@@ -1835,7 +1836,7 @@ Note that this modifier is not cumulative.</description>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97d9-2d74-aa09-9faf" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="b17d-b95d-f493-992d" name="Great Weapon" hidden="false" collective="true" import="true" type="upgrade">
+                <selectionEntry id="b17d-b95d-f493-992d" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a444-c0a3-aaf9-880f" type="max"/>
                   </constraints>
@@ -1846,7 +1847,7 @@ Note that this modifier is not cumulative.</description>
                     <cost name="pts" typeId="points" value="4.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="9420-54a9-857f-31e1" name="Additional Hand Weapon" hidden="false" collective="true" import="true" type="upgrade">
+                <selectionEntry id="9420-54a9-857f-31e1" name="Additional Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3815-0e24-3e37-80c9" type="max"/>
                   </constraints>
@@ -1885,6 +1886,7 @@ Note that this modifier is not cumulative.</description>
         <infoLink id="692e-497d-0ce0-1376" name="Armor Bane (X)" hidden="false" targetId="7eb4-7bce-00d2-6ddc" type="rule"/>
         <infoLink id="b5fd-c7da-90b7-d427" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
         <infoLink id="1fb2-bc2f-8547-c0b4" name="Stupidity" hidden="false" targetId="2381-d3dd-1612-8d3a" type="rule"/>
+        <infoLink id="26f7-0854-0d89-17a7" name="Motley Crew" hidden="false" targetId="854b-2832-cd0e-1835" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="7a79-09de-b064-1d20" name="New CategoryLink" hidden="false" targetId="f2ef-b3e4-02b2-0e8b" primary="true"/>
@@ -1932,7 +1934,7 @@ Note that this modifier is not cumulative.</description>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fd8f-2f9a-e499-76dc" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="3534-abc1-6113-cabc" name="Great Weapon" hidden="false" collective="true" import="true" type="upgrade">
+                <selectionEntry id="3534-abc1-6113-cabc" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a017-c536-90d6-7f5b" type="max"/>
                   </constraints>
@@ -1943,7 +1945,7 @@ Note that this modifier is not cumulative.</description>
                     <cost name="pts" typeId="points" value="4.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="6d91-d621-dd14-9420" name="Additional Hand Weapon" hidden="false" collective="true" import="true" type="upgrade">
+                <selectionEntry id="6d91-d621-dd14-9420" name="Additional Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e9ba-02c9-9af3-5294" type="max"/>
                   </constraints>
@@ -1984,6 +1986,7 @@ Note that this modifier is not cumulative.</description>
         <infoLink id="f5a6-f77c-e05b-2091" name="Stupidity" hidden="false" targetId="2381-d3dd-1612-8d3a" type="rule"/>
         <infoLink id="93db-fff2-b80e-2ae8" name="Armored Hide (X)" hidden="false" targetId="d8c5-1057-e968-cecd" type="rule"/>
         <infoLink id="a568-788d-dc80-826e" name="Magic Resistance (-X)" hidden="false" targetId="b499-4a5b-20aa-9996" type="rule"/>
+        <infoLink id="1ad7-afa6-62ef-c917" name="Motley Crew" hidden="false" targetId="854b-2832-cd0e-1835" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="dabf-300b-4369-7e16" name="New CategoryLink" hidden="false" targetId="f2ef-b3e4-02b2-0e8b" primary="true"/>
@@ -2031,7 +2034,7 @@ Note that this modifier is not cumulative.</description>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7511-5727-70a1-5897" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="a2de-448d-50dd-a996" name="Great Weapon" hidden="false" collective="true" import="true" type="upgrade">
+                <selectionEntry id="a2de-448d-50dd-a996" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f7e-163a-cf32-516e" type="max"/>
                   </constraints>
@@ -2042,7 +2045,7 @@ Note that this modifier is not cumulative.</description>
                     <cost name="pts" typeId="points" value="4.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="be40-4039-be3b-6651" name="Additional Hand Weapon" hidden="false" collective="true" import="true" type="upgrade">
+                <selectionEntry id="be40-4039-be3b-6651" name="Additional Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="269e-b233-825d-6a62" type="max"/>
                   </constraints>
@@ -6448,6 +6451,7 @@ D6:
         <infoLink id="1698-1b83-3e16-4181" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
         <infoLink id="d056-01ee-c2fb-53d0" name="Stupidity" hidden="false" targetId="2381-d3dd-1612-8d3a" type="rule"/>
         <infoLink id="f697-06f8-333a-11ae" name="Enhanced Regeneration" hidden="false" targetId="c35a-a08c-e712-7e72" type="rule"/>
+        <infoLink id="aee6-3dd0-a75f-94c7" name="Motley Crew" hidden="false" targetId="854b-2832-cd0e-1835" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="79e9-417b-545c-8e8a" name="New CategoryLink" hidden="false" targetId="3a6e-bd50-9282-4281" primary="true"/>
@@ -6495,7 +6499,7 @@ D6:
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6f07-a7dd-0253-8a82" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="3aa1-0d45-f4f8-2de0" name="Great Weapon" hidden="false" collective="true" import="true" type="upgrade">
+                <selectionEntry id="3aa1-0d45-f4f8-2de0" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3fd8-4a68-35d6-79f4" type="max"/>
                   </constraints>
@@ -6506,7 +6510,7 @@ D6:
                     <cost name="pts" typeId="points" value="4.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="9b72-c6d0-6f9f-9085" name="Additional Hand Weapon" hidden="false" collective="true" import="true" type="upgrade">
+                <selectionEntry id="9b72-c6d0-6f9f-9085" name="Additional Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="501b-b709-d77c-53b0" type="max"/>
                   </constraints>
@@ -6567,6 +6571,7 @@ D6:
         <infoLink id="4bfe-a2a3-c733-c169" name="Armored Hide (X)" hidden="false" targetId="d8c5-1057-e968-cecd" type="rule"/>
         <infoLink id="8e21-2a4b-b4b7-3d3b" name="Magic Resistance (-X)" hidden="false" targetId="b499-4a5b-20aa-9996" type="rule"/>
         <infoLink id="b630-53ae-b887-fc81" name="Enhanced Regeneration" hidden="false" targetId="c35a-a08c-e712-7e72" type="rule"/>
+        <infoLink id="73b7-0c1a-1621-aaba" name="Motley Crew" hidden="false" targetId="854b-2832-cd0e-1835" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="0f2b-c601-ee73-0844" name="New CategoryLink" hidden="false" targetId="3a6e-bd50-9282-4281" primary="true"/>
@@ -6614,7 +6619,7 @@ D6:
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1e35-67e9-2e69-2470" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="29c2-430f-a84d-7922" name="Great Weapon" hidden="false" collective="true" import="true" type="upgrade">
+                <selectionEntry id="29c2-430f-a84d-7922" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b35-b036-e385-fe1c" type="max"/>
                   </constraints>
@@ -6625,7 +6630,7 @@ D6:
                     <cost name="pts" typeId="points" value="4.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="0c3e-ca35-0604-d09b" name="Additional Hand Weapon" hidden="false" collective="true" import="true" type="upgrade">
+                <selectionEntry id="0c3e-ca35-0604-d09b" name="Additional Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b29-6e14-4fe3-4d9d" type="max"/>
                   </constraints>
@@ -6684,6 +6689,7 @@ D6:
         <infoLink id="ad56-2c72-36e2-97ba" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
         <infoLink id="a54f-b8ff-8a4c-580f" name="Stupidity" hidden="false" targetId="2381-d3dd-1612-8d3a" type="rule"/>
         <infoLink id="eada-b514-db5b-fd2b" name="Enhanced Regeneration" hidden="false" targetId="c35a-a08c-e712-7e72" type="rule"/>
+        <infoLink id="da10-5f30-41e5-ee0d" name="Motley Crew" hidden="false" targetId="854b-2832-cd0e-1835" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="74a0-677f-6098-beab" name="New CategoryLink" hidden="false" targetId="3a6e-bd50-9282-4281" primary="true"/>
@@ -6731,7 +6737,7 @@ D6:
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7abf-80fc-ab1a-236a" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="c98d-432a-6b2b-d2ae" name="Great Weapon" hidden="false" collective="true" import="true" type="upgrade">
+                <selectionEntry id="c98d-432a-6b2b-d2ae" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a171-f5e2-1371-2aeb" type="max"/>
                   </constraints>
@@ -6742,7 +6748,7 @@ D6:
                     <cost name="pts" typeId="points" value="4.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="480e-3d2d-ba60-a300" name="Additional Hand Weapon" hidden="false" collective="true" import="true" type="upgrade">
+                <selectionEntry id="480e-3d2d-ba60-a300" name="Additional Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cfa8-e1f1-054b-58f1" type="max"/>
                   </constraints>
@@ -7971,7 +7977,7 @@ If a natural 6 is rolled for the Extra Attacks (+D6) special rule, the Battleaxe
             <characteristic name="Armor Piercing" typeId="29b7-bacf-c845-c96c">-1</characteristic>
             <characteristic name="Special Rules" typeId="ca33-106b-5e61-5a3c">Armor Bane (1), Magical Attacks
 
-Models whose troop type is &apos;cavalry&apos; or &apos;chariot&apos; only. This weapon&apos;s Strength and Armor Piercing modifiers apply only during the first round of combat. In addition, during a turn in which the wielder charged, Porko&apos;s Pigstikka grants them +1 Attack for each rank the enemy unit has.</characteristic>
+Models whose troop type is &apos;cavalry&apos; or &apos;chariot&apos; only. This weapon&apos;s Strength and Armor Piercing modifiers apply only during a turn in which the wielder charged. In addition, during a turn in which the wielder charged, Porko&apos;s Pigstikka grants them +1 Attack for each rank the enemy unit has.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8308,7 +8314,7 @@ The wielder of this weapon has a +1 modifier to its Weapon Skill and Initiative 
             <characteristic name="Armor Piercing" typeId="29b7-bacf-c845-c96c">-</characteristic>
             <characteristic name="Special Rules" typeId="ca33-106b-5e61-5a3c">Armour Bane (1), Magical Attacks
 
-The wielder of Da Akrit Axe may re-roll any failed rolls To Hit made whilst using it. Howeber, this weapon&apos;s Strength modifier only applies during the first round of combat.</characteristic>
+The wielder of Da Akrit Axe may re-roll any failed rolls To Hit made whilst using it. However, this weapon&apos;s Strength modifier applies only against enemy models the wielder charged this turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>

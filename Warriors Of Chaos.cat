@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="f873-9084-229f-521f" name="Warriors Of Chaos" revision="1" battleScribeVersion="2.03" authorName="Birddie Software" authorContact="birddiesoftware@gmail.com" library="false" gameSystemId="c46c-ea3c-1fc5-3d88" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="f873-9084-229f-521f" name="Warriors Of Chaos" revision="1" battleScribeVersion="2.03" authorName="CSB Software" authorContact="birddiesoftware@gmail.com" library="false" gameSystemId="c46c-ea3c-1fc5-3d88" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="10d2-64c2-8243-ed86" name="Arcane Journal - Warriors of Chaos" shortName="AJ"/>
   </publications>
@@ -592,6 +592,8 @@
             <entryLink id="22cd-d24c-3e43-9e99" name="Chaos Chariot" hidden="false" collective="false" import="true" targetId="8310-4761-ea49-e1d6" type="selectionEntry"/>
             <entryLink id="4303-8680-3bca-f8f0" name="Gorebeast Chariot" hidden="false" collective="false" import="true" targetId="46be-f161-4791-685d" type="selectionEntry"/>
             <entryLink id="05ef-f310-6ab6-6302" name="Chosen Chaos Chariot" hidden="false" collective="false" import="true" targetId="6dcf-1488-6948-f297" type="selectionEntry"/>
+            <entryLink id="c670-bc4c-63e6-100c" name="Manticore" hidden="false" collective="false" import="true" targetId="d479-abe9-d8cd-6031" type="selectionEntry"/>
+            <entryLink id="9910-6761-f97c-35e1" name="Chaos Dragon" hidden="false" collective="false" import="true" targetId="6ccb-ea7b-5205-041a" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
         <selectionEntryGroup id="d8ad-4c8e-0013-186e" name="Equipment" hidden="false" collective="false" import="true">
@@ -2922,6 +2924,7 @@ D6:
         <infoLink id="2104-8cad-bd61-5f90" name="Flammable" hidden="false" targetId="8e5f-d768-0170-b1ed" type="rule"/>
         <infoLink id="0c5b-b761-d3cd-fc86" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
         <infoLink id="8cf0-d082-0470-273f" name="Stupidity" hidden="false" targetId="2381-d3dd-1612-8d3a" type="rule"/>
+        <infoLink id="c7f4-6985-4d56-8c16" name="Motley Crew" hidden="false" targetId="854b-2832-cd0e-1835" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="f05e-1a1a-42ad-5191" name="New CategoryLink" hidden="false" targetId="f2ef-b3e4-02b2-0e8b" primary="true"/>
@@ -2969,7 +2972,7 @@ D6:
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2957-662a-71b4-abbf" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="3ed6-1f23-9688-4d93" name="Additional Hand Weapon" hidden="false" collective="true" import="true" type="upgrade">
+                <selectionEntry id="3ed6-1f23-9688-4d93" name="Additional Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f1cf-fdb8-6a7c-585b" type="max"/>
                   </constraints>
@@ -2980,7 +2983,7 @@ D6:
                     <cost name="pts" typeId="points" value="3.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="13ee-e2d3-9c9f-431a" name="Great Weapon" hidden="false" collective="true" import="true" type="upgrade">
+                <selectionEntry id="13ee-e2d3-9c9f-431a" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="009b-9393-afc5-54d2" type="max"/>
                   </constraints>
@@ -3132,6 +3135,7 @@ D6:
         <infoLink id="da54-1673-7637-9ef9" name="First Charge" hidden="false" targetId="6ab6-2eb6-a425-d1de" type="rule"/>
         <infoLink id="4f1d-4aad-7727-d8a4" name="Swiftstride" hidden="false" targetId="fdf8-c51a-139f-b492" type="rule"/>
         <infoLink id="acf4-feb2-03d9-a538" name="Chaos Steed" hidden="false" targetId="f8d6-9e5a-51ad-9fce" type="profile"/>
+        <infoLink id="b156-b1ac-4415-0ebd" name="Counter Charge" hidden="false" targetId="7299-4748-4ba0-f910" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="0e71-5424-6a7c-960f" name="New CategoryLink" hidden="false" targetId="3a6e-bd50-9282-4281" primary="true"/>
@@ -4397,7 +4401,7 @@ In combat, a Chimera with a fiend tail may make an additional D3 attacks each tu
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
-            <cost name="pts" typeId="points" value="56.0"/>
+            <cost name="pts" typeId="points" value="59.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4768,7 +4772,7 @@ Effect: If this Bound spell is cast, all units within 6&quot; of this model (fri
             <characteristic name="Armor Piercing" typeId="29b7-bacf-c845-c96c">-1</characteristic>
             <characteristic name="Special Rules" typeId="ca33-106b-5e61-5a3c">Extra Attacks (D3), Magical Attacks, Requires Two Hands
 
-Storm&apos;s Wrath&apos;s Strength modifier applies only during the first round of combat.</characteristic>
+Storm&apos;s Wrath&apos;s Strength modifier applies only against enemy models the wielder charged this turn.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6993,7 +6997,7 @@ In combat, this model may choose to make one of its attacks each turn with this 
             </selectionEntryGroup>
           </selectionEntryGroups>
           <costs>
-            <cost name="pts" typeId="points" value="56.0"/>
+            <cost name="pts" typeId="points" value="59.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -7263,6 +7267,7 @@ In combat, this model may choose to make one of its attacks each turn with this 
       </costs>
     </selectionEntry>
     <selectionEntry id="f2cc-6673-53d0-cf9c" name="Chaos Trolls" hidden="true" collective="false" import="true" type="unit">
+      <comment>Wolves of the Sea</comment>
       <modifiers>
         <modifier type="set" field="hidden" value="false">
           <conditions>
@@ -7282,6 +7287,7 @@ In combat, this model may choose to make one of its attacks each turn with this 
         <infoLink id="68eb-2f12-32bb-370c" name="Flammable" hidden="false" targetId="8e5f-d768-0170-b1ed" type="rule"/>
         <infoLink id="bd40-b3a0-8467-3e43" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
         <infoLink id="4bba-aaf3-9e1f-9579" name="Stupidity" hidden="false" targetId="2381-d3dd-1612-8d3a" type="rule"/>
+        <infoLink id="bbe5-4400-23bf-01d9" name="Motley Crew" hidden="false" targetId="854b-2832-cd0e-1835" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="6d53-5985-814a-c096" name="New CategoryLink" hidden="false" targetId="41ac-8b29-caf2-1245" primary="true"/>
@@ -7329,7 +7335,7 @@ In combat, this model may choose to make one of its attacks each turn with this 
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2548-3204-a9b0-acb1" type="max"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="808d-f619-985f-4ab0" name="Additional Hand Weapon" hidden="false" collective="true" import="true" type="upgrade">
+                <selectionEntry id="808d-f619-985f-4ab0" name="Additional Hand Weapon" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f202-7938-1b91-79a8" type="max"/>
                   </constraints>
@@ -7340,7 +7346,7 @@ In combat, this model may choose to make one of its attacks each turn with this 
                     <cost name="pts" typeId="points" value="3.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="9dff-3960-a3df-b73b" name="Great Weapon" hidden="false" collective="true" import="true" type="upgrade">
+                <selectionEntry id="9dff-3960-a3df-b73b" name="Great Weapon" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e085-e62e-e197-f97e" type="max"/>
                   </constraints>
@@ -8464,6 +8470,7 @@ No armour save is permitted against wounds caused by this weapon (Ward and Regen
         <infoLink id="6854-76e1-69e0-a33e" name="Stomp Attacks (X)" hidden="false" targetId="f765-018b-b3d7-de34" type="rule"/>
         <infoLink id="9cce-305b-d890-b82d" name="Swiftstride" hidden="false" targetId="fdf8-c51a-139f-b492" type="rule"/>
         <infoLink id="c9d7-5e27-b69d-332e" name="Terror" hidden="false" targetId="2d27-d702-9e61-39aa" type="rule"/>
+        <infoLink id="fb19-0fc2-91c6-47d7" name="Impetuous" hidden="false" targetId="1456-ecd3-5fba-eb80" type="rule"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="285.0"/>
@@ -8814,7 +8821,7 @@ No armour save is permitted against wounds caused by this weapon (Ward and Regen
       <profiles>
         <profile id="4571-e3e8-53fd-bc88" name="Diabolic Splendour" publicationId="b907-f7a4-2802-2a2e" page="77" hidden="false" typeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" typeName="Arcane and Enchanted Item">
           <characteristics>
-            <characteristic name="Magic Property" typeId="4d616769632050726f706572747923232344415441232323">Any enemy model that targets this character or any unit they have joined during the Shooting phase suffers an additional -1 To Hit modifier.</characteristic>
+            <characteristic name="Magic Property" typeId="4d616769632050726f706572747923232344415441232323">Models whose troop type is &apos;infantry&apos; or &apos;cavalry&apos; only. Any enemy model that targets this character or any unit they have joined during the Shooting phase suffers an additional -1 To Hit modifier.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -8830,7 +8837,7 @@ No armour save is permitted against wounds caused by this weapon (Ward and Regen
       <profiles>
         <profile id="00de-6ddd-ca41-5255" name="Enchanting Aura" publicationId="b907-f7a4-2802-2a2e" page="77" hidden="false" typeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" typeName="Arcane and Enchanted Item">
           <characteristics>
-            <characteristic name="Magic Property" typeId="4d616769632050726f706572747923232344415441232323">Enemy units engaged in combat with this character cannot use the Strike First special rule. Enemy models that do not have the Strike First special rule become subject to the Strike Last special rule instead.</characteristic>
+            <characteristic name="Magic Property" typeId="4d616769632050726f706572747923232344415441232323">Models whose troop type is &apos;infantry&apos; or &apos;cavalry&apos; only. Enemy units engaged in combat with this character cannot use the Strike First special rule. Enemy models that do not have the Strike First special rule become subject to the Strike Last special rule instead.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -9149,7 +9156,7 @@ Any enemy model that suffers one or more unsaved wounds from the Filth Mace must
       <profiles>
         <profile id="4019-66a8-a7c1-597d" name="Infernal Puppet" publicationId="b907-f7a4-2802-2a2e" page="80" hidden="false" typeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" typeName="Arcane and Enchanted Item">
           <characteristics>
-            <characteristic name="Magic Property" typeId="4d616769632050726f706572747923232344415441232323">Unless the owner of the Infernal Puppet is fleeing or engaged in combat, they must use it whenever an enemy Wizard that is within 24&quot; of them makes a Casting roll. If they do so, the enemy Wizard must roll an extra D6 and discard the highest result.</characteristic>
+            <characteristic name="Magic Property" typeId="4d616769632050726f706572747923232344415441232323">Unless the owner of the Infernal Puppet is fleeing or engaged in combat, they may use it whenever an enemy Wizard that is within 15&quot; of them makes a Casting roll. If they do so, the enemy Wizard must roll an extra D6 and discard the highest result.</characteristic>
           </characteristics>
         </profile>
       </profiles>
