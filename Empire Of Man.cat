@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="182d-142e-2430-0f64" name="Empire Of Man" revision="1" battleScribeVersion="2.03" authorName="Birddie Software" authorContact="birddiesoftware@gmail.com" library="false" gameSystemId="c46c-ea3c-1fc5-3d88" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="182d-142e-2430-0f64" name="Empire Of Man" revision="1" battleScribeVersion="2.03" authorName="CSB Software" authorContact="birddiesoftware@gmail.com" library="false" gameSystemId="c46c-ea3c-1fc5-3d88" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="07db-a771-5d74-f34d" name="Arcane Journal - Empire of Man" shortName="AJ"/>
   </publications>
@@ -351,6 +351,7 @@
         <infoLink id="0506-cb0d-2e33-1c1e" name="Close Order" hidden="false" targetId="5e87-b462-1458-7a74" type="rule"/>
         <infoLink id="6d4b-9bfb-9bb7-9f4d" name="Detatchment" hidden="false" targetId="928c-ba0d-2e38-2713" type="rule"/>
         <infoLink id="d5a3-1491-e243-073e" name="Regimental Unit" hidden="false" targetId="7f95-a696-c06b-52dc" type="rule"/>
+        <infoLink id="14f4-4b3f-1c28-d6d9" name="Horde" hidden="false" targetId="02ea-a75b-e26a-d671" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="6c0a-f822-3130-adb8" name="New CategoryLink" hidden="false" targetId="3a6e-bd50-9282-4281" primary="true"/>
@@ -531,6 +532,7 @@
         <infoLink id="022b-5334-85e0-a176" name="Detatchment" hidden="false" targetId="928c-ba0d-2e38-2713" type="rule"/>
         <infoLink id="a7f4-c1fc-6677-805b" name="Regimental Unit" hidden="false" targetId="7f95-a696-c06b-52dc" type="rule"/>
         <infoLink id="22c5-9d2f-cd1b-8818" name="Veteran" hidden="false" targetId="d5b8-aef6-cedd-db24" type="rule"/>
+        <infoLink id="9eb3-532d-b5bf-9840" name="Horde" hidden="false" targetId="02ea-a75b-e26a-d671" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="774f-02a5-b960-56a9" name="New CategoryLink" hidden="false" targetId="3a6e-bd50-9282-4281" primary="true"/>
@@ -1192,7 +1194,7 @@
                 <characteristic name="M" typeId="4d23232344415441232323">4</characteristic>
                 <characteristic name="WS" typeId="575323232344415441232323">4</characteristic>
                 <characteristic name="BS" typeId="425323232344415441232323">3</characteristic>
-                <characteristic name="S" typeId="5323232344415441232323">3</characteristic>
+                <characteristic name="S" typeId="5323232344415441232323">4</characteristic>
                 <characteristic name="T" typeId="5423232344415441232323">3</characteristic>
                 <characteristic name="W" typeId="5723232344415441232323">1</characteristic>
                 <characteristic name="I" typeId="4923232344415441232323">3</characteristic>
@@ -1259,7 +1261,7 @@
                     <characteristic name="M" typeId="4d23232344415441232323">4</characteristic>
                     <characteristic name="WS" typeId="575323232344415441232323">5</characteristic>
                     <characteristic name="BS" typeId="425323232344415441232323">3</characteristic>
-                    <characteristic name="S" typeId="5323232344415441232323">3</characteristic>
+                    <characteristic name="S" typeId="5323232344415441232323">4</characteristic>
                     <characteristic name="T" typeId="5423232344415441232323">3</characteristic>
                     <characteristic name="W" typeId="5723232344415441232323">1</characteristic>
                     <characteristic name="I" typeId="4923232344415441232323">3</characteristic>
@@ -5489,7 +5491,7 @@ Note also that the effects of these Prayers on friendly units are not cumulative
             <characteristic name="W" typeId="5723232344415441232323">2</characteristic>
             <characteristic name="I" typeId="4923232344415441232323">4</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">2</characteristic>
-            <characteristic name="LD" typeId="4c4423232344415441232323">8</characteristic>
+            <characteristic name="LD" typeId="4c4423232344415441232323">9</characteristic>
             <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
             <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
             <characteristic name="MR" typeId="4d5223232344415441232323"/>
@@ -5760,7 +5762,7 @@ Note also that the effects of these Prayers on friendly units are not cumulative
             <characteristic name="W" typeId="5723232344415441232323">3</characteristic>
             <characteristic name="I" typeId="4923232344415441232323">5</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">3</characteristic>
-            <characteristic name="LD" typeId="4c4423232344415441232323">9</characteristic>
+            <characteristic name="LD" typeId="4c4423232344415441232323">10</characteristic>
             <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
             <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
             <characteristic name="MR" typeId="4d5223232344415441232323"/>
@@ -9003,6 +9005,7 @@ A model armed with a long rifle can target a specific model within its target un
         <infoLink id="b8c7-893f-e874-b6c6" name="Close Order" hidden="false" targetId="5e87-b462-1458-7a74" type="rule"/>
         <infoLink id="e165-afaf-b0e0-c987" name="Detatchment" hidden="false" targetId="928c-ba0d-2e38-2713" type="rule"/>
         <infoLink id="2b49-579e-984c-16d2" name="Regimental Unit" hidden="false" targetId="7f95-a696-c06b-52dc" type="rule"/>
+        <infoLink id="e689-cb5f-29c2-840d" name="Horde" hidden="false" targetId="02ea-a75b-e26a-d671" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="3403-ed8a-03da-644b" name="New CategoryLink" hidden="false" targetId="f2ef-b3e4-02b2-0e8b" primary="true"/>
@@ -11690,7 +11693,7 @@ Note that any additional attacks that cause unsaved wounds and any unsaved wound
             <characteristic name="W" typeId="5723232344415441232323">3</characteristic>
             <characteristic name="I" typeId="4923232344415441232323">5</characteristic>
             <characteristic name="A" typeId="4123232344415441232323">3</characteristic>
-            <characteristic name="LD" typeId="4c4423232344415441232323">9</characteristic>
+            <characteristic name="LD" typeId="4c4423232344415441232323">10</characteristic>
             <characteristic name="ArmourSave" typeId="41726d6f75725361766523232344415441232323"/>
             <characteristic name="WardSave" typeId="576172645361766523232344415441232323"/>
             <characteristic name="MR" typeId="4d5223232344415441232323"/>

@@ -909,6 +909,7 @@ Units that are fleeing, that are already engaged in combat when charged, or that
         <infoLink id="70fa-13b4-6daf-70c2" name="Stubborn" hidden="false" targetId="dcb1-7f06-895d-30a8" type="rule"/>
         <infoLink id="d40d-4c4e-7a07-e9fc" name="Move Through Cover" hidden="false" targetId="7724-9148-fc68-d29e" type="rule"/>
         <infoLink id="fa1c-e640-b361-e759" name="Lion Cloak" hidden="false" targetId="7699-9091-e084-e05a" type="rule"/>
+        <infoLink id="baf7-4ec9-2291-80d0" name="Furious Charge" hidden="false" targetId="9f16-1024-2d45-97cf" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="a3d2-9b90-50b4-8db0" name="New CategoryLink" hidden="false" targetId="f2ef-b3e4-02b2-0e8b" primary="true"/>

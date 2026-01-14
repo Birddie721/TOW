@@ -1168,7 +1168,6 @@ Enemy units can charge the front of a unit equipped with defensive stakes as nor
         <infoLink id="344c-0864-2dde-8b08" name="Barding" hidden="false" targetId="b15a-0fa5-3b2f-cded" type="profile"/>
         <infoLink id="8e5d-2fbc-5d59-8564" name="Blessings Of The Lady" hidden="false" targetId="9ddd-088b-3fd7-a222" type="rule"/>
         <infoLink id="7a52-9e0e-ea48-9deb" name="First Charge" hidden="false" targetId="6ab6-2eb6-a425-d1de" type="rule"/>
-        <infoLink id="959e-b0bf-cb07-180e" name="Lance Formation" hidden="false" targetId="68a0-be8a-2fc3-dd0f" type="rule"/>
         <infoLink id="104f-ec1d-4e78-f828" name="Swiftstride" hidden="false" targetId="fdf8-c51a-139f-b492" type="rule"/>
         <infoLink id="93e5-ed5a-c7f6-ba5c" name="The Knight&apos;s Vow" hidden="false" targetId="df51-760a-80ae-7d37" type="rule"/>
         <infoLink id="e309-477c-e7a3-c8a3" name="Barded Pegasus" hidden="false" targetId="96d6-669e-26d3-4e85" type="profile"/>
@@ -1211,7 +1210,7 @@ Enemy units can charge the front of a unit equipped with defensive stakes as nor
             <infoLink id="312d-ad57-2327-bc81" name="Shield" hidden="false" targetId="9665-15b9-13e6-aa51" type="profile"/>
           </infoLinks>
           <costs>
-            <cost name="pts" typeId="points" value="55.0"/>
+            <cost name="pts" typeId="points" value="59.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="eb7c-1112-af1e-9767" name="The Crusader&apos;s Vow" hidden="true" collective="false" import="true" type="upgrade">
@@ -4524,7 +4523,7 @@ The Grail Reliquae counts as both a standard bearer and a musician for its unit.
         <infoLink id="440d-0638-057d-dab7" name="Swiftstride" hidden="false" targetId="fdf8-c51a-139f-b492" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="60.0"/>
+        <cost name="pts" typeId="points" value="70.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ef4b-f29b-c2cf-feb9" name="Unicorn" publicationId="5cca-edd4-43a8-7719" page="90" hidden="false" collective="false" import="true" type="upgrade">
@@ -5190,7 +5189,7 @@ Any enemy model that suffers one or more unsaved wounds from the Foebreaker must
       <profiles>
         <profile id="c4fe-a0d6-5942-d3f9" name="Falcon-horn Of Fredemund" publicationId="5cca-edd4-43a8-7719" page="106" hidden="false" typeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" typeName="Arcane and Enchanted Item">
           <characteristics>
-            <characteristic name="Magic Property" typeId="4d616769632050726f706572747923232344415441232323">During the Command sub-phase of their turn, if they are not engaged in combat, this character may attempt to use the Falcon-horn of Fredemund by making a Leadership test (using their own unmodified Leadership). If this test is passed, until your next Start of Turn sub-phase enemy units cannot use the Fly (X) special rule.</characteristic>
+            <characteristic name="Magic Property" typeId="4d616769632050726f706572747923232344415441232323">Single Use. During the Command sub-phase of their turn, if they are not engaged in combat, the bearer of the Falcon-horn of Fredemund may attempt to use it by making a Leadership test (using their own unmodified Leadership). If this test is passed, until your next Start of Turn sub-phase enemy units cannot use the Fly (X) special rule.</characteristic>
           </characteristics>
         </profile>
       </profiles>

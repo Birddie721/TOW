@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1858-4c28-b845-031f" name="Dwarfen Mountain Holds" revision="1" battleScribeVersion="2.03" authorName="Birddie Software" authorContact="birddiesoftware@gmail.com" library="false" gameSystemId="c46c-ea3c-1fc5-3d88" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1858-4c28-b845-031f" name="Dwarfen Mountain Holds" revision="1" battleScribeVersion="2.03" authorName="CSB Software" authorContact="birddiesoftware@gmail.com" library="false" gameSystemId="c46c-ea3c-1fc5-3d88" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="7a93-3195-d2b2-3102" name="Arcane Journal - Empire of Man"/>
   </publications>
@@ -1292,6 +1292,7 @@
         <infoLink id="67ce-9a9f-e47e-d04b" name="Shieldwall" hidden="false" targetId="dddc-5d73-f3ad-601e" type="rule"/>
         <infoLink id="a0a8-ffd0-c0b5-7f62" name="Gromril Weapons" hidden="false" targetId="706d-21f2-3ba2-d379" type="rule"/>
         <infoLink id="a622-9b1c-9287-b2e1" name="Stubborn" hidden="false" targetId="dcb1-7f06-895d-30a8" type="rule"/>
+        <infoLink id="7b8d-75c7-229f-cff5" name="Gromril Armor" hidden="false" targetId="862b-cb43-8ab8-9ba4" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="1602-8c45-87d1-a930" name="New CategoryLink" hidden="false" targetId="f2ef-b3e4-02b2-0e8b" primary="true"/>
@@ -2153,7 +2154,7 @@
           <description>Once an Anvil of Doom has been placed on the battlefield during deployment it cannot be moved by its crew during the Remaining Moves sub-phase.</description>
         </rule>
         <rule id="f9f7-6fca-5715-5079" name="Strike the Runes" publicationId="5cca-edd4-43a8-7719" page="15" hidden="false">
-          <description>An Anvil of Doom can cast the Bound spells listed in the Forces of Fantasy book on page 15 with a Power Level of 3.</description>
+          <description>An Anvil of Doom can cast the Bound spells listed in the Forces of Fantasy book on page 15 with a Power Level of 2.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -2966,7 +2967,7 @@
       </modifiers>
       <rules>
         <rule id="e778-c448-33f1-5ade" name="Runes of Protection" publicationId="5cca-edd4-43a8-7719" page="24" hidden="false">
-          <description>This unit has a 6+ Ward save against any wounds suffered that were caused by a non-magical enemy attack</description>
+          <description>Models with this special rule have a 6+ Ward save against any wounds suffered that were caused by a non-magical enemy attack.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -3295,9 +3296,9 @@
                         <profile id="c487-b1d6-e67c-35df" name="Trollhammer Torpedo" publicationId="5cca-edd4-43a8-7719" page="25" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
                           <characteristics>
                             <characteristic name="Range" typeId="52616e676523232344415441232323">24&quot;</characteristic>
-                            <characteristic name="Strength" typeId="537472656e67746823232344415441232323">8</characteristic>
+                            <characteristic name="Strength" typeId="537472656e67746823232344415441232323">5</characteristic>
                             <characteristic name="Armor Piercing" typeId="29b7-bacf-c845-c96c">-3</characteristic>
-                            <characteristic name="Special Rules" typeId="ca33-106b-5e61-5a3c">Dwarf Crafted, Flaming Attacks, Multiple Wounds (D3)</characteristic>
+                            <characteristic name="Special Rules" typeId="ca33-106b-5e61-5a3c">Cumbersome, Flaming Attacks, Multiple Wounds (D3)</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -6122,7 +6123,7 @@ Note that this modifier is not cumulative.</description>
       </modifiers>
       <rules>
         <rule id="1461-abf3-fdc1-4a80" name="Runes of Protection" publicationId="5cca-edd4-43a8-7719" page="24" hidden="false">
-          <description>This unit has a 6+ Ward save against any wounds suffered that were caused by a non-magical enemy attack</description>
+          <description>Models with this special rule have a 6+ Ward save against any wounds suffered that were caused by a non-magical enemy attack.</description>
         </rule>
       </rules>
       <infoLinks>
@@ -6425,6 +6426,7 @@ However, if a misfire is rolled on the Artillery dice, no shots are fired and a 
         <infoLink id="a0e7-dd4a-aeab-1723" name="Shieldwall" hidden="false" targetId="dddc-5d73-f3ad-601e" type="rule"/>
         <infoLink id="556d-8d1c-75e4-92d3" name="Gromril Weapons" hidden="false" targetId="706d-21f2-3ba2-d379" type="rule"/>
         <infoLink id="18e5-e1e0-9774-d624" name="Stubborn" hidden="false" targetId="dcb1-7f06-895d-30a8" type="rule"/>
+        <infoLink id="a150-33f9-398d-be07" name="Gromril Armor" hidden="false" targetId="862b-cb43-8ab8-9ba4" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e571-3460-6cb2-13c5" name="New CategoryLink" hidden="false" targetId="f2ef-b3e4-02b2-0e8b" primary="true"/>
@@ -7729,6 +7731,9 @@ If the roll To Hit is successful when firing a light cannon, it causes D3 hits t
                   <infoLinks>
                     <infoLink id="ce80-20c7-de52-2ece" name="Light Armour" hidden="false" targetId="757d-d0fc-a004-1f02" type="profile"/>
                   </infoLinks>
+                  <costs>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="71d8-49b7-a1cb-82aa" name="Heavy Armour" hidden="false" collective="true" import="true" type="upgrade">
                   <constraints>
@@ -7749,6 +7754,9 @@ If the roll To Hit is successful when firing a light cannon, it causes D3 hits t
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
@@ -8921,10 +8929,10 @@ Note that any additional attacks that cause unsaved wounds and any unsaved wound
       <description>Models with this special rule suffer a -1 modifier to the result of any Flee roll or Pursuit roll they make (to a minimum of 1).</description>
     </rule>
     <rule id="2946-d7ec-e7fe-e66b" name="Rune Lore" publicationId="5cca-edd4-43a8-7719" page="39" hidden="false">
-      <description>A model with this special rule may be nominated to attempt a Wizardly Dispel, as if it were a Wizard. For the purposes of Wizardly Dispel attempts:
-* An Anvil of Doom counts as a Level 3 Wizard
-* A Runelord counts as a Level 2 Wizard
-* A Runesmith counts as a Level 1 Wizard</description>
+      <description>A model with this special rule may be nominated to attempt a Wizardly Dispel as if it were a Wizard. However, unlike regular Wizards, models with this special rule do not have Levels of Wizardry with which to determine their Dispel range or modify their Dispel rolls. Instead:
+* An Anvil of Doom has a Dispel range of 24&quot; and may apply a +3 modifier to its Dispel rolls.
+* A Runelord has a Dispel range of 21&quot; and may apply a +2 modifier to their Dispel rolls.
+* A Runesmith has a Dispel range of 18&quot; and may apply a +1 modifier to their Dispel rolls.</description>
     </rule>
     <rule id="706d-21f2-3ba2-d379" name="Gromril Weapons" publicationId="5cca-edd4-43a8-7719" page="39" hidden="false">
       <description>A hand weapon carried by a model with this special rule has an Armor Piercing characteristic of -1.</description>
