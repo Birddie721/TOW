@@ -26,7 +26,7 @@
         <infoLink id="3e42-7781-0a32-e2bb" name="Close Order" hidden="false" targetId="5e87-b462-1458-7a74" type="rule"/>
         <infoLink id="2993-0aeb-03eb-8739" name="Indomitable (1)" hidden="false" targetId="979c-2677-4492-ffe5" type="rule"/>
         <infoLink id="44b2-5fcf-16dc-1213" name="Necromantic Undead" hidden="false" targetId="6dfc-ef01-9c52-cb16" type="rule"/>
-        <infoLink id="2619-6875-fd4c-7f1d" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="2619-6875-fd4c-7f1d" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="11ac-92f1-1fea-41ef" name="New CategoryLink" hidden="false" targetId="f2ef-b3e4-02b2-0e8b" primary="true"/>
@@ -208,7 +208,7 @@ However, if the winning side significantly outnumbers the losing side, it will o
         <infoLink id="fa42-f363-b55e-5dc8" name="Horde" hidden="false" targetId="02ea-a75b-e26a-d671" type="rule"/>
         <infoLink id="9714-9018-2de8-309d" name="Close Order" hidden="false" targetId="5e87-b462-1458-7a74" type="rule"/>
         <infoLink id="9264-aeb9-8afd-d720" name="Necromantic Undead" hidden="false" targetId="6dfc-ef01-9c52-cb16" type="rule"/>
-        <infoLink id="7e32-806b-5f68-07cd" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="7e32-806b-5f68-07cd" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="8dbb-671f-7372-0543" name="New CategoryLink" hidden="false" targetId="3a6e-bd50-9282-4281" primary="true"/>
@@ -325,7 +325,7 @@ However, if the winning side significantly outnumbers the losing side, it will o
         <infoLink id="70e4-6bd7-639f-632d" name="Horde" hidden="false" targetId="02ea-a75b-e26a-d671" type="rule"/>
         <infoLink id="42e8-443c-d931-e69d" name="Close Order" hidden="false" targetId="5e87-b462-1458-7a74" type="rule"/>
         <infoLink id="dd79-e174-9b98-0518" name="Necromantic Undead" hidden="false" targetId="6dfc-ef01-9c52-cb16" type="rule"/>
-        <infoLink id="1c3c-bb57-7a7d-cf37" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="1c3c-bb57-7a7d-cf37" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
         <infoLink id="3c68-87d3-e97a-09fa" name="The Newly Dead" hidden="false" targetId="ece8-dbab-a86f-8b6b" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -429,7 +429,7 @@ However, if the winning side significantly outnumbers the losing side, it will o
         <infoLink id="f3d1-49d6-d645-733c" name="Close Order" hidden="false" targetId="5e87-b462-1458-7a74" type="rule"/>
         <infoLink id="7746-61e8-4c0c-9464" name="Indomitable (1)" hidden="false" targetId="979c-2677-4492-ffe5" type="rule"/>
         <infoLink id="d0eb-59da-36cc-07f5" name="Necromantic Undead" hidden="false" targetId="6dfc-ef01-9c52-cb16" type="rule"/>
-        <infoLink id="787d-81b3-780e-6615" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="787d-81b3-780e-6615" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="cdba-8dfe-c957-32ac" name="New CategoryLink" hidden="false" targetId="3a6e-bd50-9282-4281" primary="true"/>
@@ -610,7 +610,7 @@ However, if the winning side significantly outnumbers the losing side, it will o
       <infoLinks>
         <infoLink id="3665-6494-38f1-b668" name="Open Order" hidden="false" targetId="1619-9e03-3ea3-d038" type="rule"/>
         <infoLink id="ddf9-10a4-cb12-1ba6" name="Necromantic Undead" hidden="false" targetId="6dfc-ef01-9c52-cb16" type="rule"/>
-        <infoLink id="3f4b-42e3-c134-2999" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="3f4b-42e3-c134-2999" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
         <infoLink id="8b5b-7bf0-1ace-944f" name="Reserve Move" hidden="false" targetId="76d1-3f46-bfa6-0f03" type="rule"/>
         <infoLink id="5015-2f3d-4981-315b" name="Skirmishers" hidden="false" targetId="2ef8-58ca-2897-9630" type="rule"/>
         <infoLink id="e200-2d48-5c46-9c76" name="Move Through Cover" hidden="false" targetId="7724-9148-fc68-d29e" type="rule"/>
@@ -707,7 +707,7 @@ However, if the winning side significantly outnumbers the losing side, it will o
       <infoLinks>
         <infoLink id="16ca-f00e-d54b-5034" name="Open Order" hidden="false" targetId="1619-9e03-3ea3-d038" type="rule"/>
         <infoLink id="00b3-61a8-b892-99cb" name="Necromantic Undead" hidden="false" targetId="6dfc-ef01-9c52-cb16" type="rule"/>
-        <infoLink id="b73a-1567-eb8c-770b" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="b73a-1567-eb8c-770b" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
         <infoLink id="38fb-33b0-24b4-6386" name="Indomitable (1)" hidden="false" targetId="979c-2677-4492-ffe5" type="rule"/>
         <infoLink id="233c-71b5-d18c-5682" name="Stomp Attacks (X)" hidden="false" targetId="f765-018b-b3d7-de34" type="rule"/>
         <infoLink id="e796-eb35-dd9a-2aeb" name="Move Through Cover" hidden="false" targetId="7724-9148-fc68-d29e" type="rule"/>
@@ -793,7 +793,7 @@ However, if the winning side significantly outnumbers the losing side, it will o
     <selectionEntry id="101a-92b8-33c4-44c4" name="Bat Swarms" hidden="false" collective="false" import="true" type="unit">
       <infoLinks>
         <infoLink id="655d-7bf9-0a64-efbf" name="Necromantic Undead" hidden="false" targetId="6dfc-ef01-9c52-cb16" type="rule"/>
-        <infoLink id="db53-0cc2-ff1c-e113" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="db53-0cc2-ff1c-e113" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
         <infoLink id="c464-fab0-9c22-d21c" name="Skirmishers" hidden="false" targetId="2ef8-58ca-2897-9630" type="rule"/>
         <infoLink id="a58f-63c2-ef05-d2b0" name="Fly (X)" hidden="false" targetId="b08c-8d83-b803-0bff" type="rule"/>
       </infoLinks>
@@ -851,7 +851,7 @@ However, if the winning side significantly outnumbers the losing side, it will o
       <infoLinks>
         <infoLink id="a39b-9ac3-132b-67f5" name="Dark Vitality" hidden="false" targetId="d27b-21cf-d096-79a3" type="rule"/>
         <infoLink id="5ba0-fdb2-fef4-ee04" name="Necromantic Undead" hidden="false" targetId="6dfc-ef01-9c52-cb16" type="rule"/>
-        <infoLink id="9a1c-bfe0-c76c-ff6e" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="9a1c-bfe0-c76c-ff6e" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
         <infoLink id="a8dd-4606-2e8a-e93d" name="Indomitable (1)" hidden="false" targetId="979c-2677-4492-ffe5" type="rule"/>
         <infoLink id="1f83-588c-b719-6f1a" name="Skirmishers" hidden="false" targetId="2ef8-58ca-2897-9630" type="rule"/>
         <infoLink id="715c-8418-c24e-e345" name="Armor Bane (X)" hidden="false" targetId="7eb4-7bce-00d2-6ddc" type="rule"/>
@@ -953,9 +953,9 @@ However, if the winning side significantly outnumbers the losing side, it will o
       </constraints>
       <infoLinks>
         <infoLink id="552a-e43a-a1af-f3ae" name="Necromantic Undead" hidden="false" targetId="6dfc-ef01-9c52-cb16" type="rule"/>
-        <infoLink id="8240-c951-a317-2d89" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="8240-c951-a317-2d89" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
         <infoLink id="81c1-0c07-18ea-65c7" name="Skirmishers" hidden="false" targetId="2ef8-58ca-2897-9630" type="rule"/>
-        <infoLink id="7f47-739b-6679-657b" name="Fly (X)" hidden="false" targetId="b08c-8d83-b803-0bff" type="rule"/>
+        <infoLink id="7f47-739b-6679-657b" name="Fly (10)" hidden="false" targetId="d803-3575-3b4e-dfe7" type="rule"/>
         <infoLink id="e69d-c085-da2a-f979" name="Swiftstride" hidden="false" targetId="fdf8-c51a-139f-b492" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -1016,7 +1016,7 @@ However, if the winning side significantly outnumbers the losing side, it will o
       </rules>
       <infoLinks>
         <infoLink id="8ee8-50c1-175d-3060" name="Necromantic Undead" hidden="false" targetId="6dfc-ef01-9c52-cb16" type="rule"/>
-        <infoLink id="0ec7-225e-4994-61a5" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="0ec7-225e-4994-61a5" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
         <infoLink id="2396-d29c-d092-7057" name="Open Order" hidden="false" targetId="1619-9e03-3ea3-d038" type="rule"/>
         <infoLink id="567c-faa1-2e90-4276" name="Ethereal" hidden="false" targetId="3bdc-3bb3-11a3-a502" type="rule"/>
         <infoLink id="91a2-d717-7cfb-2b1b" name="Magical Attacks" hidden="false" targetId="94c4-3add-0704-8c04" type="rule"/>
@@ -1086,7 +1086,7 @@ However, if the winning side significantly outnumbers the losing side, it will o
         <infoLink id="f5cf-ef7c-43c4-eeb5" name="Close Order" hidden="false" targetId="5e87-b462-1458-7a74" type="rule"/>
         <infoLink id="3828-ad7e-40d5-7d17" name="Indomitable (1)" hidden="false" targetId="979c-2677-4492-ffe5" type="rule"/>
         <infoLink id="0ba4-e474-9c93-ffc1" name="Necromantic Undead" hidden="false" targetId="6dfc-ef01-9c52-cb16" type="rule"/>
-        <infoLink id="8a95-483a-b8e7-5b72" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="8a95-483a-b8e7-5b72" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
         <infoLink id="48c7-bdcd-3db2-b57c" name="Dark Vitality" hidden="false" targetId="d27b-21cf-d096-79a3" type="rule"/>
         <infoLink id="d19d-d6e9-002a-a1ca" name="First Charge" hidden="false" targetId="6ab6-2eb6-a425-d1de" type="rule"/>
         <infoLink id="1af3-e8a6-8c22-5129" name="Flammable" hidden="false" targetId="8e5f-d768-0170-b1ed" type="rule"/>
@@ -1272,7 +1272,7 @@ However, if the winning side significantly outnumbers the losing side, it will o
         <infoLink id="5346-bb95-196e-df1e" name="Cleaving Blow" hidden="false" targetId="5aa5-cf01-e6e3-5a3f" type="rule"/>
         <infoLink id="acab-efe0-5389-cc50" name="Close Order" hidden="false" targetId="5e87-b462-1458-7a74" type="rule"/>
         <infoLink id="cdfe-1027-2d6f-21c0" name="Necromantic Undead" hidden="false" targetId="6dfc-ef01-9c52-cb16" type="rule"/>
-        <infoLink id="7ede-2f6b-3505-5800" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="7ede-2f6b-3505-5800" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
         <infoLink id="7460-7fb7-ec77-2291" name="First Charge" hidden="false" targetId="6ab6-2eb6-a425-d1de" type="rule"/>
         <infoLink id="d2a8-7747-c0bb-597f" name="Swiftstride" hidden="false" targetId="fdf8-c51a-139f-b492" type="rule"/>
         <infoLink id="720a-1c40-c799-70a1" name="Skeletal Steed" hidden="false" targetId="18fa-5465-fcb8-f717" type="profile"/>
@@ -1457,7 +1457,7 @@ However, if the winning side significantly outnumbers the losing side, it will o
         <infoLink id="7f9e-c36d-f404-f2fa" name="Cleaving Blow" hidden="false" targetId="5aa5-cf01-e6e3-5a3f" type="rule"/>
         <infoLink id="d2c0-fc1c-646e-5e8e" name="Close Order" hidden="false" targetId="5e87-b462-1458-7a74" type="rule"/>
         <infoLink id="807c-db4f-d817-48c0" name="Necromantic Undead" hidden="false" targetId="6dfc-ef01-9c52-cb16" type="rule"/>
-        <infoLink id="5fc9-863c-f7e0-ec24" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="5fc9-863c-f7e0-ec24" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
         <infoLink id="39e4-ecee-9712-6393" name="First Charge" hidden="false" targetId="6ab6-2eb6-a425-d1de" type="rule"/>
         <infoLink id="bdcb-10c6-823e-5ffa" name="Swiftstride" hidden="false" targetId="fdf8-c51a-139f-b492" type="rule"/>
         <infoLink id="a251-c10a-a234-d555" name="Skeletal Steed" hidden="false" targetId="18fa-5465-fcb8-f717" type="profile"/>
@@ -1612,7 +1612,7 @@ However, if the winning side significantly outnumbers the losing side, it will o
       </rules>
       <infoLinks>
         <infoLink id="2ca3-fb9c-ea19-fea7" name="Necromantic Undead" hidden="false" targetId="6dfc-ef01-9c52-cb16" type="rule"/>
-        <infoLink id="7b5e-dfeb-142b-ce96" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="7b5e-dfeb-142b-ce96" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
         <infoLink id="9161-2c98-73f5-4096" name="Reserve Move" hidden="false" targetId="76d1-3f46-bfa6-0f03" type="rule"/>
         <infoLink id="79cc-ca91-72e7-6a27" name="Open Order" hidden="false" targetId="1619-9e03-3ea3-d038" type="rule"/>
         <infoLink id="6530-c4ea-d573-6386" name="Vanguard" hidden="false" targetId="351f-9b6f-6ee0-85b2" type="rule"/>
@@ -1712,7 +1712,7 @@ However, if the winning side significantly outnumbers the losing side, it will o
         <infoLink id="4bfc-2e02-f4b2-d421" name="Ethereal" hidden="false" targetId="3bdc-3bb3-11a3-a502" type="rule"/>
         <infoLink id="dc86-24da-3e05-c7e5" name="Flaming Attacks" hidden="false" targetId="e058-98b8-2527-5145" type="rule"/>
         <infoLink id="439a-1a01-93fd-bdb8" name="Necromantic Undead" hidden="false" targetId="6dfc-ef01-9c52-cb16" type="rule"/>
-        <infoLink id="4074-9a01-afb3-04d0" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="4074-9a01-afb3-04d0" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
         <infoLink id="30bc-e422-14c6-3260" name="Fly (X)" hidden="false" targetId="b08c-8d83-b803-0bff" type="rule"/>
         <infoLink id="10f8-b913-921f-1f41" name="Swiftstride" hidden="false" targetId="fdf8-c51a-139f-b492" type="rule"/>
         <infoLink id="74bc-07c4-fa2c-3209" name="Skeletal Steed" hidden="false" targetId="18fa-5465-fcb8-f717" type="profile"/>
@@ -1861,7 +1861,7 @@ However, if the winning side significantly outnumbers the losing side, it will o
         <infoLink id="48ea-cc55-373a-ff20" name="Lore Of Undeath" hidden="false" targetId="6001-9b66-bc50-6927" type="rule"/>
         <infoLink id="e1f7-502a-abc3-7826" name="Necromantic Undead" hidden="false" targetId="6dfc-ef01-9c52-cb16" type="rule"/>
         <infoLink id="ff62-1f1f-efe3-d236" name="Random Attacks" hidden="false" targetId="30f2-5b25-ff31-1d16" type="rule"/>
-        <infoLink id="e170-3e79-19ac-01de" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="e170-3e79-19ac-01de" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="552e-1495-6b2b-22b8" name="New CategoryLink" hidden="false" targetId="f2ef-b3e4-02b2-0e8b" primary="true"/>
@@ -2008,7 +2008,7 @@ Note that this is cumulative with the Indomitable (X) special rule (see page 27)
         <infoLink id="f419-bb92-99f3-e87d" name="Indomitable (1)" hidden="false" targetId="979c-2677-4492-ffe5" type="rule"/>
         <infoLink id="8883-89b3-e37f-6f23" name="Necromantic Undead" hidden="false" targetId="6dfc-ef01-9c52-cb16" type="rule"/>
         <infoLink id="21d6-3dc1-a583-f73b" name="Terror" hidden="false" targetId="2d27-d702-9e61-39aa" type="rule"/>
-        <infoLink id="edf7-dafe-fa4f-c6b1" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="edf7-dafe-fa4f-c6b1" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="ac2d-906c-c88f-2c99" name="New CategoryLink" hidden="false" targetId="41ac-8b29-caf2-1245" primary="true"/>
@@ -2137,7 +2137,7 @@ In combat, this model must make one of its attacks each turn with this weapon.</
         <infoLink id="f0e2-6105-bb87-2f70" name="Swiftstride" hidden="false" targetId="fdf8-c51a-139f-b492" type="rule"/>
         <infoLink id="be80-f646-90ff-e1ce" name="Indomitable (1)" hidden="false" targetId="979c-2677-4492-ffe5" type="rule"/>
         <infoLink id="8d68-743f-e372-7c2c" name="Wailing Dirge" hidden="false" targetId="19e4-de59-2ca7-9425" type="rule"/>
-        <infoLink id="e5bf-0b84-c847-85f3" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="e5bf-0b84-c847-85f3" name="Regeneration (5+)" hidden="false" targetId="6917-6443-03f5-2f38" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="06fa-ca71-96fc-5b29" name="New CategoryLink" hidden="false" targetId="41ac-8b29-caf2-1245" primary="true"/>
@@ -2203,7 +2203,7 @@ In combat, this model must make one of its attacks each turn with this weapon.</
         <infoLink id="ffef-ded8-f58e-18f4" name="Frenzy" hidden="false" targetId="ead9-2400-fd8e-2138" type="rule"/>
         <infoLink id="11d9-0167-cf57-a6ca" name="Indomitable (1)" hidden="false" targetId="979c-2677-4492-ffe5" type="rule"/>
         <infoLink id="66fb-4b26-e9eb-f8a6" name="Necromantic Undead" hidden="false" targetId="6dfc-ef01-9c52-cb16" type="rule"/>
-        <infoLink id="eaa5-15be-b2bd-f608" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="eaa5-15be-b2bd-f608" name="Regeneration (5+)" hidden="false" targetId="6917-6443-03f5-2f38" type="rule"/>
         <infoLink id="5993-5a6b-841d-63b1" name="Swiftstride" hidden="false" targetId="fdf8-c51a-139f-b492" type="rule"/>
         <infoLink id="b24f-2968-99b1-f907" name="Terror" hidden="false" targetId="2d27-d702-9e61-39aa" type="rule"/>
       </infoLinks>
@@ -2306,7 +2306,7 @@ In combat, this model must make one of its attacks each turn with this weapon.</
         <infoLink id="a48a-ab13-0f93-ffa6" name="Killing Blow" hidden="false" targetId="f476-ed24-c451-6e04" type="rule"/>
         <infoLink id="5475-8f91-b826-4b33" name="Indomitable (1)" hidden="false" targetId="979c-2677-4492-ffe5" type="rule"/>
         <infoLink id="3e6b-9783-e36e-7966" name="Necromantic Undead" hidden="false" targetId="6dfc-ef01-9c52-cb16" type="rule"/>
-        <infoLink id="9136-e835-3581-b394" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="9136-e835-3581-b394" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
         <infoLink id="5e37-8589-531f-ae56" name="Heavy Armour" hidden="false" targetId="65ae-52e6-e846-aa27" type="profile"/>
       </infoLinks>
       <categoryLinks>
@@ -2429,7 +2429,7 @@ In combat, this model must make one of its attacks each turn with this weapon.</
         <infoLink id="ab5a-07f8-4fa3-fe78" name="Hand Weapon" hidden="false" targetId="c148-c9dc-176e-bf50" type="profile"/>
         <infoLink id="9317-6bf6-ca14-2601" name="Killing Blow" hidden="false" targetId="f476-ed24-c451-6e04" type="rule"/>
         <infoLink id="669a-5726-63fd-9d51" name="Necromantic Undead" hidden="false" targetId="6dfc-ef01-9c52-cb16" type="rule"/>
-        <infoLink id="f524-af21-1f1a-76eb" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="f524-af21-1f1a-76eb" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
         <infoLink id="0b8b-c1f0-0333-9c57" name="Heavy Armour" hidden="false" targetId="65ae-52e6-e846-aa27" type="profile"/>
       </infoLinks>
       <categoryLinks>
@@ -2590,7 +2590,7 @@ Note that this is not cumulative with the Indomitable (X) special rule (see page
         <infoLink id="d95a-a49c-5328-dc0c" name="Ethereal" hidden="false" targetId="3bdc-3bb3-11a3-a502" type="rule"/>
         <infoLink id="e668-1262-bb0d-2be8" name="Indomitable (1)" hidden="false" targetId="979c-2677-4492-ffe5" type="rule"/>
         <infoLink id="2aca-906b-4cce-0aeb" name="Necromantic Undead" hidden="false" targetId="6dfc-ef01-9c52-cb16" type="rule"/>
-        <infoLink id="a956-e904-132a-052d" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="a956-e904-132a-052d" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
         <infoLink id="ee66-4f0a-de04-6447" name="Terror" hidden="false" targetId="2d27-d702-9e61-39aa" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -2650,8 +2650,8 @@ Note that this is not cumulative with the Indomitable (X) special rule (see page
         <infoLink id="42d1-ada4-5880-a0e3" name="Indomitable (1)" hidden="false" targetId="979c-2677-4492-ffe5" type="rule"/>
         <infoLink id="dcd2-2615-31f8-41ba" name="Necromantic Undead" hidden="false" targetId="6dfc-ef01-9c52-cb16" type="rule"/>
         <infoLink id="794f-7131-b2bb-ef42" name="Flammable" hidden="false" targetId="8e5f-d768-0170-b1ed" type="rule"/>
-        <infoLink id="6ad1-f3d3-3a52-3a2e" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
-        <infoLink id="8879-55de-e21a-21d4" name="Hatred (X)" hidden="false" targetId="b8bc-ae1f-eee4-896c" type="rule"/>
+        <infoLink id="6ad1-f3d3-3a52-3a2e" name="Regeneration (5+)" hidden="false" targetId="6917-6443-03f5-2f38" type="rule"/>
+        <infoLink id="8879-55de-e21a-21d4" name="Hatred (all enemies)" hidden="false" targetId="1e61-ce0c-b9d1-1309" type="rule"/>
         <infoLink id="e3b7-a9f6-56b3-5ff8" name="Lore Of Undeath" hidden="false" targetId="6001-9b66-bc50-6927" type="rule"/>
         <infoLink id="40b6-cccf-ea67-c91a" name="Poisoned Attacks" hidden="false" targetId="1a7b-d4f0-ba03-04a4" type="rule"/>
       </infoLinks>
@@ -2878,7 +2878,7 @@ Note that this is not cumulative with the Indomitable (X) special rule (see page
         <infoLink id="e279-756d-b519-0efb" name="Dark Vitality" hidden="false" targetId="d27b-21cf-d096-79a3" type="rule"/>
         <infoLink id="911e-6d60-bec2-c413" name="Indomitable (1)" hidden="false" targetId="979c-2677-4492-ffe5" type="rule"/>
         <infoLink id="a346-769a-6702-d862" name="Necromantic Undead" hidden="false" targetId="6dfc-ef01-9c52-cb16" type="rule"/>
-        <infoLink id="05dc-d52e-2bf2-0d07" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="05dc-d52e-2bf2-0d07" name="Regeneration (5+)" hidden="false" targetId="6917-6443-03f5-2f38" type="rule"/>
         <infoLink id="02f0-fb62-e8f7-38fe" name="Lore Of Undeath" hidden="false" targetId="6001-9b66-bc50-6927" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -3080,7 +3080,7 @@ Note that this is not cumulative with the Indomitable (X) special rule (see page
         <infoLink id="b2bb-4217-866f-9aed" name="Dark Vitality" hidden="false" targetId="d27b-21cf-d096-79a3" type="rule"/>
         <infoLink id="2c0c-d722-c017-0a10" name="Indomitable (1)" hidden="false" targetId="979c-2677-4492-ffe5" type="rule"/>
         <infoLink id="ab06-2c85-78c9-8f5d" name="Necromantic Undead" hidden="false" targetId="6dfc-ef01-9c52-cb16" type="rule"/>
-        <infoLink id="1f91-2dbd-68e9-02e8" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="1f91-2dbd-68e9-02e8" name="Regeneration (5+)" hidden="false" targetId="6917-6443-03f5-2f38" type="rule"/>
         <infoLink id="9fe8-d094-3040-d14f" name="Lore Of Undeath" hidden="false" targetId="6001-9b66-bc50-6927" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -3252,7 +3252,7 @@ Note that this is not cumulative with the Indomitable (X) special rule (see page
         <infoLink id="e4c2-efd9-b281-0139" name="Indomitable (1)" hidden="false" targetId="979c-2677-4492-ffe5" type="rule"/>
         <infoLink id="9f1d-6088-cbfc-7294" name="Necromantic Undead" hidden="false" targetId="6dfc-ef01-9c52-cb16" type="rule"/>
         <infoLink id="a7aa-74f8-0cc3-f985" name="Flammable" hidden="false" targetId="8e5f-d768-0170-b1ed" type="rule"/>
-        <infoLink id="3a1c-5f43-060e-2a74" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="3a1c-5f43-060e-2a74" name="Regeneration (5+)" hidden="false" targetId="6917-6443-03f5-2f38" type="rule"/>
         <infoLink id="f27d-9d40-f0d8-829d" name="Lore Of Undeath" hidden="false" targetId="6001-9b66-bc50-6927" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -3609,7 +3609,7 @@ Note that this is not cumulative with the Indomitable (X) special rule (see page
         <infoLink id="4ef3-df08-2e13-c7fe" name="Indomitable (2)" hidden="false" targetId="760b-3c55-f9bf-8e88" type="rule"/>
         <infoLink id="107c-48ff-3da6-45da" name="Necromantic Undead" hidden="false" targetId="6dfc-ef01-9c52-cb16" type="rule"/>
         <infoLink id="deb9-fd1d-04a8-f2e6" name="Flammable" hidden="false" targetId="8e5f-d768-0170-b1ed" type="rule"/>
-        <infoLink id="58ff-d20f-4536-c84d" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="58ff-d20f-4536-c84d" name="Regeneration (5+)" hidden="false" targetId="6917-6443-03f5-2f38" type="rule"/>
         <infoLink id="0db9-9db8-d78d-6c88" name="Lore Of Undeath" hidden="false" targetId="6001-9b66-bc50-6927" type="rule"/>
       </infoLinks>
       <categoryLinks>
@@ -3925,7 +3925,7 @@ Note that this is not cumulative with the Indomitable (X) special rule (see page
       <infoLinks>
         <infoLink id="2f11-2d2e-4596-604d" name="Dark Vitality" hidden="false" targetId="d27b-21cf-d096-79a3" type="rule"/>
         <infoLink id="efea-c158-587f-b466" name="Necromantic Undead" hidden="false" targetId="6dfc-ef01-9c52-cb16" type="rule"/>
-        <infoLink id="b6cd-256d-e3ad-d847" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="b6cd-256d-e3ad-d847" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
         <infoLink id="b6a5-dde0-7a8c-6566" name="Indomitable (1)" hidden="false" targetId="979c-2677-4492-ffe5" type="rule"/>
         <infoLink id="d057-b683-1999-df99" name="Skirmishers" hidden="false" targetId="2ef8-58ca-2897-9630" type="rule"/>
         <infoLink id="e599-6c57-7cbf-7777" name="Armor Bane (X)" hidden="false" targetId="7eb4-7bce-00d2-6ddc" type="rule"/>
@@ -4084,7 +4084,7 @@ In combat, this model must make one of its attacks each turn with this weapon.</
         <infoLink id="b3e5-aa1b-a947-2acf" name="Swiftstride" hidden="false" targetId="fdf8-c51a-139f-b492" type="rule"/>
         <infoLink id="28aa-1812-b968-17f8" name="Indomitable (1)" hidden="false" targetId="979c-2677-4492-ffe5" type="rule"/>
         <infoLink id="117a-365c-ca8a-b838" name="Wailing Dirge" hidden="false" targetId="19e4-de59-2ca7-9425" type="rule"/>
-        <infoLink id="ac2a-6d6d-6eae-c544" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="ac2a-6d6d-6eae-c544" name="Regeneration (5+)" hidden="false" targetId="6917-6443-03f5-2f38" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="efe7-b76b-d56a-88d3" name="New CategoryLink" hidden="false" targetId="f2ef-b3e4-02b2-0e8b" primary="true"/>
@@ -4137,7 +4137,7 @@ Effect: Until your next Start of Turn sub-phase, this model may re-roll any roll
         <infoLink id="c332-da84-8469-e6ef" name="Impact Hits (X)" hidden="false" targetId="3de4-6e3c-074a-f210" type="rule"/>
         <infoLink id="eea2-96e7-a1f0-1be6" name="Large Target" hidden="false" targetId="5982-ec1f-c586-6d66" type="rule"/>
         <infoLink id="8b93-fecc-d887-76eb" name="Necromantic Undead" hidden="false" targetId="6dfc-ef01-9c52-cb16" type="rule"/>
-        <infoLink id="3156-9b2f-1e01-1806" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="3156-9b2f-1e01-1806" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
       </infoLinks>
       <selectionEntries>
         <selectionEntry id="2843-f40f-e1be-2520" name="Palid Handmaiden" hidden="false" collective="false" import="true" type="upgrade">
@@ -4245,7 +4245,7 @@ Effect: Until your next Start of Turn sub-phase, this model may re-roll any roll
         <infoLink id="af25-b42c-53c5-b7f2" name="Impact Hits (X)" hidden="false" targetId="3de4-6e3c-074a-f210" type="rule"/>
         <infoLink id="c414-fb6c-eb4f-15b5" name="Large Target" hidden="false" targetId="5982-ec1f-c586-6d66" type="rule"/>
         <infoLink id="68c6-2a52-a014-561c" name="Necromantic Undead" hidden="false" targetId="6dfc-ef01-9c52-cb16" type="rule"/>
-        <infoLink id="1513-ecbc-5fbe-5b39" name="Regeneration (X+)" hidden="false" targetId="35a1-5ffe-0442-fe71" type="rule"/>
+        <infoLink id="1513-ecbc-5fbe-5b39" name="Regeneration (6+)" hidden="false" targetId="4ab6-406d-e6ba-c3a0" type="rule"/>
         <infoLink id="b9a4-b4a0-76b3-e6a9" name="Wailing Dirge" hidden="false" targetId="19e4-de59-2ca7-9425" type="rule"/>
       </infoLinks>
       <selectionEntries>
