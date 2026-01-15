@@ -741,7 +741,6 @@
             <entryLink id="1d6b-42e7-4577-c55b" name="War Boar" hidden="false" collective="false" import="true" targetId="dad7-edc1-9304-46c0" type="selectionEntry"/>
             <entryLink id="3837-19ff-9ac5-5ec5" name="Boar Chariot" hidden="false" collective="false" import="true" targetId="a655-7012-6f39-b090" type="selectionEntry"/>
             <entryLink id="864d-1532-ceaf-e863" name="Wyvern" hidden="false" collective="false" import="true" targetId="c865-c523-c0e2-8e40" type="selectionEntry"/>
-            <entryLink id="9ddc-6770-4ede-612d" name="Black Orc Boar Chariot" hidden="false" collective="false" import="true" targetId="25c9-b420-e3ad-1559" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -939,7 +938,6 @@
           <entryLinks>
             <entryLink id="bc29-193b-bd51-d6bb" name="War Boar" hidden="false" collective="false" import="true" targetId="dad7-edc1-9304-46c0" type="selectionEntry"/>
             <entryLink id="1d86-545b-0d54-12d1" name="Boar Chariot" hidden="false" collective="false" import="true" targetId="a655-7012-6f39-b090" type="selectionEntry"/>
-            <entryLink id="5ded-c9dc-ef02-1266" name="Black Orc Boar Chariot" hidden="false" collective="false" import="true" targetId="25c9-b420-e3ad-1559" type="selectionEntry"/>
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>

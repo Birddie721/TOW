@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="c46c-ea3c-1fc5-3d88" name="Warhammer The Old World" revision="1" battleScribeVersion="2.03" authorName="Birddie Software" authorContact="birddiesoftware@gmail.com" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="c46c-ea3c-1fc5-3d88" name="Warhammer The Old World" revision="1" battleScribeVersion="2.03" authorName="CSB Software" authorContact="birddiesoftware@gmail.com" authorUrl="" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <publications>
     <publication id="5fe9-85b6-a584-6dfe" name="BRB"/>
     <publication id="5cca-edd4-43a8-7719" name="Forces of Fantasy" shortName="FoF"/>
@@ -337,7 +337,7 @@ A model equipped with an Ironfist improves its armor value by 1.</characteristic
         </profile>
       </profiles>
       <costs>
-        <cost name="pts" typeId="points" value="65.0"/>
+        <cost name="pts" typeId="points" value="75.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="73b6-82e5-71ad-fe69" name="BRB - Sword Of Battle" publicationId="5fe9-85b6-a584-6dfe" page="338" hidden="false" collective="false" import="true" type="upgrade">
@@ -593,7 +593,9 @@ During the Combat phase, the wielder of the Sword of Striking has a +1 modifier 
         <profile id="384a-5079-99f5-9e92" name="Bedazzling Helm" publicationId="5fe9-85b6-a584-6dfe" page="340" hidden="false" typeId="41726d6f757223232344415441232323" typeName="Armour">
           <characteristics>
             <characteristic name="Saving Throw modifier" typeId="536176696e67205468726f77206d6f64696669657223232344415441232323">+1</characteristic>
-            <characteristic name="Special Rules" typeId="5370656369616c2052756c657323232344415441232323">Any enemy model that directs its attacks against the wearer of the Bedazzling Helm during the Combat phase suffers a -1 modifier to its rolls To Hit.</characteristic>
+            <characteristic name="Special Rules" typeId="5370656369616c2052756c657323232344415441232323">Any enemy model that directs its attacks against the wearer of the Bedazzling Helm during the Combat phase suffers a -1 modifier to its rolls To Hit.
+
+Models whose troop type is &apos;infantry&apos; or &apos;cavalry&apos; only.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -936,12 +938,12 @@ During the Combat phase, the wielder of the Sword of Striking has a +1 modifier 
       <profiles>
         <profile id="388e-a137-1644-1899" name="Ruby Ring Of Ruin" publicationId="5fe9-85b6-a584-6dfe" page="342" hidden="false" typeId="417263616e6520616e6420456e6368616e746564204974656d23232344415441232323" typeName="Arcane and Enchanted Item">
           <characteristics>
-            <characteristic name="Magic Property" typeId="4d616769632050726f706572747923232344415441232323">The wearer of the Ruby Ring of Ruin can cast the Fireball spell from the Lore of Battle Magic as a Bound spell, with a Power Level of 2.</characteristic>
+            <characteristic name="Magic Property" typeId="4d616769632050726f706572747923232344415441232323">The wearer of the Ruby Ring of Ruin can cast the Fireball spell from the Lore of Battle Magic as a Bound spell, with a Power Level of 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
       <costs>
-        <cost name="pts" typeId="points" value="30.0"/>
+        <cost name="pts" typeId="points" value="35.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="56be-40dc-897c-a494" name="BRB - Potion of Strength*" publicationId="5fe9-85b6-a584-6dfe" page="342" hidden="false" collective="false" import="true" type="upgrade">
@@ -1137,7 +1139,7 @@ Note that this is a modifier to the result of a roll - it does not negate a roll
     <rule id="e058-98b8-2527-5145" name="Flaming Attacks" publicationId="5fe9-85b6-a584-6dfe" page="169" hidden="false"/>
     <rule id="8e5f-d768-0170-b1ed" name="Flammable" publicationId="5fe9-85b6-a584-6dfe" page="169" hidden="false"/>
     <rule id="b08c-8d83-b803-0bff" name="Fly (X)" publicationId="5fe9-85b6-a584-6dfe" page="170" hidden="false">
-      <description> A model with this special rule can Fly. Models that can Fly can choose either to move normally on the ground (using their Movement characteristic), or to move by flying. How many inches a model can Fly varies from model to model, and will be shown in brackets after the name of this special rule (shown here as ‘X’). Models that choose to move by flying:
+      <description>Except when following up or pursuing, a model with this special rule can choose to move my flying through the air, rather than moving across the ground as normal. When a model flies it uses a special &apos;Fly Movement&apos; characteristic, shown in brackets after the name of this special rule (shown here as &apos;X&apos;). Models that choose to move by flying:
 
 * May move as normal(i.e., they may charge, march and manoeuvre as if moving on the ground), except that they are able to pass freely above other models, units and terrain features without any penalty, and they can march whilst within 8&quot; of an enemy unit without first having to make a Leadership test.
 
@@ -1145,7 +1147,20 @@ Note that this is a modifier to the result of a roll - it does not negate a roll
 
 Models that can Fly must begin and end all of their movement on the ground. A character with this special rule cannot join a unit without this special rule, and vice versa.</description>
     </rule>
-    <rule id="ead9-2400-fd8e-2138" name="Frenzy" publicationId="5fe9-85b6-a584-6dfe" page="170" hidden="false"/>
+    <rule id="ead9-2400-fd8e-2138" name="Frenzy" publicationId="5fe9-85b6-a584-6dfe" page="170" hidden="false">
+      <description>During a turn in which it made a charge move, or during the turn after it made a follow up move, a Frenzied model has a +1 modifier to its Attacks characteristc. However, a Frienzied rider does not confer this modifier to their mount, and vice versa.
+
+In addition:
+
+* If the majority of the models in a unit are Frenzied, the unit automatically passes any Fear, Panic or Terror tests it is required to make.
+
+* If a unit that includes one or more Frenzied models is able to declare a charge during the Declare Charges &amp; Charge Reactions sub-phase of its turn, it must do so.
+
+* If the majority of the models in a unit are Frenzied, it cannot choose to Flee as a charge reaction, nor can it ever choose to make a Restraint test.
+
+
+Losing Frenzy: Unlike other special rules, Frenzy can be lost during a game. Any model that loses a round of combat will immediately lose this special rule.</description>
+    </rule>
     <rule id="b8bc-ae1f-eee4-896c" name="Hatred (X)" publicationId="5fe9-85b6-a584-6dfe" page="171" hidden="false">
       <description>A model with this special rule may re-roll any failed rolls To Hit made against a hated enemy during the first round of combat.
 
@@ -1153,9 +1168,15 @@ Which enemies are hated varies from model to model and will be shown in brackets
     </rule>
     <rule id="1a46-bc9a-b027-4ed1" name="Ignores Cover" publicationId="5fe9-85b6-a584-6dfe" page="171" hidden="false"/>
     <rule id="8de9-e265-8e60-3456" name="Immune to Psychology" publicationId="5fe9-85b6-a584-6dfe" page="171" hidden="false"/>
-    <rule id="3de4-6e3c-074a-f210" name="Impact Hits (X)" publicationId="5fe9-85b6-a584-6dfe" page="172" hidden="false"/>
+    <rule id="3de4-6e3c-074a-f210" name="Impact Hits (X)" publicationId="5fe9-85b6-a584-6dfe" page="172" hidden="false">
+      <description>The number of Impact Hits caused varies from model to model, and will be shown in brackets after the name of this special rule (shown here as &apos;X&apos;). Often, this is determined by the roll of a dice.
+
+Resolving Impact Hits: Impact Hits can only be made by a charging model that moved 3&quot; or more and that is in base contact with the enemy. Impact Hits are resolved against the charged unit when the combat is chosen during Step 1.1 of the Choose Combat &amp; Fight sub-phase, before issuing challenges. They hit automatically and use the unmodified Strength of the model making them.</description>
+    </rule>
     <rule id="f476-ed24-c451-6e04" name="Killing Blow" publicationId="5fe9-85b6-a584-6dfe" page="172" hidden="false"/>
-    <rule id="5982-ec1f-c586-6d66" name="Large Target" publicationId="5fe9-85b6-a584-6dfe" page="172" hidden="false"/>
+    <rule id="5982-ec1f-c586-6d66" name="Large Target" publicationId="5fe9-85b6-a584-6dfe" page="172" hidden="false">
+      <description>Large Targets do not benefit from partial or full cover. In addition, a unit can draw a line of sight to a Large Target over or through another unit, and vice versa, provided that unit is not also a Large Target. Finally, a unit that shoots at a Large Target can shoot with one additional rank. For example, a unit armed with crossbows can shoot with its first two ranks when shooting at a Large Target, or with its first three if also standing on a hill.</description>
+    </rule>
     <rule id="b499-4a5b-20aa-9996" name="Magic Resistance (-X)" publicationId="5fe9-85b6-a584-6dfe" page="173" hidden="false">
       <description>The Casting roll of any enemy spell (including Bound spells) that targets a unit that includes one or more models with this special rule suffers a modifier, as shown in brackets after the name of this special rule (shown here as &apos;-X&apos;).
 
@@ -1164,29 +1185,54 @@ Note that this special rule is not cumulative. If two or more models in a unit h
     <rule id="7bd1-d43f-b7dc-7756" name="Move Or Fire" publicationId="5fe9-85b6-a584-6dfe" page="174" hidden="false"/>
     <rule id="c987-b518-af0a-fee8" name="Multiple Shots (X)" publicationId="5fe9-85b6-a584-6dfe" page="174" hidden="false"/>
     <rule id="adf6-fb60-e691-631b" name="Multiple Wounds (X)" publicationId="5fe9-85b6-a584-6dfe" page="175" hidden="false"/>
-    <rule id="1a7b-d4f0-ba03-04a4" name="Poisoned Attacks" publicationId="5fe9-85b6-a584-6dfe" page="175" hidden="false"/>
+    <rule id="1a7b-d4f0-ba03-04a4" name="Poisoned Attacks" publicationId="5fe9-85b6-a584-6dfe" page="175" hidden="false">
+      <description>For each roll To Hit of a natural 6 a model with Poisoned Attacks makes, they may apply a +2 modifier to one of their rolls To Wound. Unless otherwise stated, a model with this special rule may use it when making both shooting and combat attacks. Any spells cast by the model are unaffected, as are any attacks made with magic weapons.
+
+Note that if an attack needs a To Hit roll of 7+, or hits automatically, this special rule cannot be used.</description>
+    </rule>
     <rule id="ab66-9873-4ec1-170d" name="Quick Shot" publicationId="5fe9-85b6-a584-6dfe" page="175" hidden="false"/>
     <rule id="30f2-5b25-ff31-1d16" name="Random Attacks" publicationId="5fe9-85b6-a584-6dfe" page="176" hidden="false"/>
     <rule id="2350-1f58-f63e-d9d9" name="Random Movement" publicationId="5fe9-85b6-a584-6dfe" page="176" hidden="false"/>
     <rule id="35a1-5ffe-0442-fe71" name="Regeneration (X+)" publicationId="5fe9-85b6-a584-6dfe" page="176" hidden="false">
-      <description> A model with this special rule can make a ‘Regeneration’ save. The armour value of a Regeneration save is shown in brackets after the name of this special rule (shown here as ‘X+’). A Regeneration save can never be modified by the AP characteristic of a weapon and can be made in addition to an armour save and a Ward save. However, any wounds saved by a Regeneration save are still counted for the purposes of calculating the combat result.
-
- Note that models with this special rule are often vulnerable to the Flaming Attacks or Magical Attacks special rules.</description>
+      <description>Immediately after a Wound is lost, but before models with zero Wounds remaining are removed from play, a model with this special rule may make a &apos;Regeneration save&apos; roll by rolling a D6 and comparing the result to its &apos;Regeneration value,&apos; shown in brackets after the name of this special rule (shown here as &apos;X+&apos;). If the Regeneration save roll equals or exceeds the model&apos;s Regeneration value, the lost Wound is recovered, but is still counted for the purposes of calculating the combat result. Rules that affect armour values do not affect Regeneration values unless stated otherwise.</description>
     </rule>
     <rule id="6b56-7fce-2665-ab30" name="Requires Two Hands" publicationId="5fe9-85b6-a584-6dfe" page="176" hidden="false"/>
     <rule id="2ef8-58ca-2897-9630" name="Skirmishers" publicationId="5fe9-85b6-a584-6dfe" page="177" hidden="false"/>
-    <rule id="f765-018b-b3d7-de34" name="Stomp Attacks (X)" publicationId="5fe9-85b6-a584-6dfe" page="177" hidden="false"/>
+    <rule id="f765-018b-b3d7-de34" name="Stomp Attacks (X)" publicationId="5fe9-85b6-a584-6dfe" page="177" hidden="false">
+      <description>The number of Stomp Attacks caused varies from model to model, and will be shown in brackets after the name of this special rule (shown here as &apos;X&apos;). Often, this is determined by the roll of a dice.
+
+Resolving Stomp Attacks: Stomp Attacks can only be made by a model that is in base contact with the enemy. Stomp Attacks are made in combat that must be made last, after all other attacks have been made, including attacks made at Initiative 1. They hit automatically and use the unmodified Strength of the model making them.</description>
+    </rule>
     <rule id="dcb1-7f06-895d-30a8" name="Stubborn" publicationId="5fe9-85b6-a584-6dfe" page="178" hidden="false"/>
-    <rule id="2381-d3dd-1612-8d3a" name="Stupidity" publicationId="5fe9-85b6-a584-6dfe" page="178" hidden="false"/>
-    <rule id="fdf8-c51a-139f-b492" name="Swiftstride" publicationId="5fe9-85b6-a584-6dfe" page="178" hidden="false"/>
+    <rule id="2381-d3dd-1612-8d3a" name="Stupidity" publicationId="5fe9-85b6-a584-6dfe" page="178" hidden="false">
+      <description>Unless it is fleeing or engaged in combat, a unit with this special rule must make a Stupidity test by testing against its Leadership during the Start of Turn sub-phase of each of its turns. If this test is failed, the unit succumbs to Stupidity until its next Start of Turn sub-phase. A unit that has succumbed to Stupidity:
+
+* Cannot move.
+* Cannot shoot or cast spells.
+* Cannot attempt a Wizardly dispel.
+* Must &apos;Hold&apos; if charged by an enemy.
+
+A unit or mount that does not have this special rule becomes subject to it when joined or ridden by a character that does (Stupidity is contagious).</description>
+    </rule>
+    <rule id="fdf8-c51a-139f-b492" name="Swiftstride" publicationId="5fe9-85b6-a584-6dfe" page="178" hidden="false">
+      <description>A unit which consists entirely of models with this special rule increases its maximum possible charge range by 3&quot; and, before making a Charge, Flee or Pursuit roll, may choose to apply a +D6 modifier to the result.</description>
+    </rule>
     <rule id="2d27-d702-9e61-39aa" name="Terror" publicationId="5fe9-85b6-a584-6dfe" page="179" hidden="false"/>
     <rule id="b865-dd35-76f9-6b03" name="Unbreakable" publicationId="5fe9-85b6-a584-6dfe" page="179" hidden="false"/>
     <rule id="6862-b5bd-2a35-7d9b" name="Unstable" publicationId="5fe9-85b6-a584-6dfe" page="180" hidden="false"/>
-    <rule id="351f-9b6f-6ee0-85b2" name="Vanguard" publicationId="5fe9-85b6-a584-6dfe" page="180" hidden="false"/>
+    <rule id="351f-9b6f-6ee0-85b2" name="Vanguard" publicationId="5fe9-85b6-a584-6dfe" page="180" hidden="false">
+      <description>After deployment, units with this special rule may make a Vanguard move. A unit making a Vanguard move moves as described in the Basic Movement rules. It may manoeuvre normally but cannot march.
+
+If both armies contain Vanguard units, a roll-off determines who moves first. The players then alternate moving their Vanguard units one at a time, starting with the player who won the roll-off. 
+
+Units that make a Vanguard move cannot declare a charge during their first turn.</description>
+    </rule>
     <rule id="e775-0c35-cadb-a8da" name="Volley Fire" publicationId="5fe9-85b6-a584-6dfe" page="180" hidden="false"/>
     <rule id="7eb4-7bce-00d2-6ddc" name="Armor Bane (X)" publicationId="5fe9-85b6-a584-6dfe" page="166" hidden="false"/>
     <rule id="d8c5-1057-e968-cecd" name="Armored Hide (X)" publicationId="5fe9-85b6-a584-6dfe" page="166" hidden="false"/>
-    <rule id="1839-bec3-2e68-c3e0" name="Chariot Runners" publicationId="5fe9-85b6-a584-6dfe" page="167" hidden="false"/>
+    <rule id="1839-bec3-2e68-c3e0" name="Chariot Runners" publicationId="5fe9-85b6-a584-6dfe" page="167" hidden="false">
+      <description>Friendly models whose troop type is &apos;chariot&apos; can draw a line of sight over or through models with this special rule and can move through friendly units if they are in Skirmish formation and if the majority of models have this special rule. If the chariot&apos;s move would result in ending up &apos;on top&apos; of a Chariot Runner, simply nudge the Chariot Runner aside, by the smallest amount possible, to make space for the chariot. Whilst in Skirmish formation units of Chariot Runners can treat friendly chariots that are within 1&quot; of one or more of the unit&apos;s models as a part of the unit for the purposes of unit coherency.</description>
+    </rule>
     <rule id="5e87-b462-1458-7a74" name="Close Order" publicationId="5fe9-85b6-a584-6dfe" page="167" hidden="false"/>
     <rule id="7299-4748-4ba0-f910" name="Counter Charge" publicationId="5fe9-85b6-a584-6dfe" page="167" hidden="false"/>
     <rule id="98ef-7d7f-bbc6-140b" name="Cumbersome" publicationId="5fe9-85b6-a584-6dfe" page="167" hidden="false">
@@ -1195,20 +1241,34 @@ Note that this special rule is not cumulative. If two or more models in a unit h
     <rule id="928c-ba0d-2e38-2713" name="Detatchment" publicationId="5fe9-85b6-a584-6dfe" page="167" hidden="false"/>
     <rule id="ffd3-c8f2-754b-c5d8" name="Dragged Along" publicationId="5fe9-85b6-a584-6dfe" page="167" hidden="false"/>
     <rule id="3fe0-4a62-3b25-997c" name="Drilled" publicationId="5fe9-85b6-a584-6dfe" page="167" hidden="false"/>
-    <rule id="68f5-6c7f-077c-e8b6" name="Evasive" publicationId="5fe9-85b6-a584-6dfe" page="168" hidden="false"/>
+    <rule id="68f5-6c7f-077c-e8b6" name="Evasive" publicationId="5fe9-85b6-a584-6dfe" page="168" hidden="false">
+      <description>Once per turn, when a unit in which the majority of the models have this special rule is declared the target during the enemy Shooting phase, that unit may choose to Fall Back in Good Order, fleeing directly away from the enemy unit shooting at it. Once this unit has completed its move, the enemy unit may continue with its shooting as declared.</description>
+    </rule>
     <rule id="3f29-140b-ef76-192f" name="Extra Attacks (+X)" publicationId="5fe9-85b6-a584-6dfe" page="168" hidden="false"/>
     <rule id="aa3d-8615-0a33-1aa0" name="Feigned Flight" publicationId="5fe9-85b6-a584-6dfe" page="168" hidden="false"/>
-    <rule id="5e33-78c7-4337-ab45" name="Fire &amp; Flee" publicationId="5fe9-85b6-a584-6dfe" page="169" hidden="false"/>
+    <rule id="5e33-78c7-4337-ab45" name="Fire &amp; Flee" publicationId="5fe9-85b6-a584-6dfe" page="169" hidden="false">
+      <description>If the majority of the models in a unit armed with missile weapons have this special rule, the unit may declare that it will &apos;Fire &amp; Flee&apos; as a charge reaction:
+
+Fire &amp; Flee: The unit launches a volley of weapons fire before turning to flee from the enemy. If a unit with this special rule is armed with missile weapons and can draw a line of sight to the charging unit, it may declare that it will Fire &amp; Flee. The unit will Stand &amp; Shoot before turning tail and fleeing from the charge. However, due to the time spent shooting at the charging foe, when making its Flee roll the unit rolls two D6 and discards the lowest result. If both dice roll the same result, discard either.
+
+Note that, if the distance between this unit and the charging unit is less than the Movement characteristic of the charging unit, this unit must either Hold or Flee.</description>
+    </rule>
     <rule id="6ab6-2eb6-a425-d1de" name="First Charge" publicationId="5fe9-85b6-a584-6dfe" page="169" hidden="false"/>
     <rule id="9f16-1024-2d45-97cf" name="Furious Charge" publicationId="5fe9-85b6-a584-6dfe" page="171" hidden="false"/>
     <rule id="02ea-a75b-e26a-d671" name="Horde" publicationId="5fe9-85b6-a584-6dfe" page="171" hidden="false"/>
     <rule id="a122-2a92-b458-e934" name="Howdah" publicationId="5fe9-85b6-a584-6dfe" page="171" hidden="false"/>
-    <rule id="1456-ecd3-5fba-eb80" name="Impetuous" publicationId="5fe9-85b6-a584-6dfe" page="172" hidden="false"/>
+    <rule id="1456-ecd3-5fba-eb80" name="Impetuous" publicationId="5fe9-85b6-a584-6dfe" page="172" hidden="false">
+      <description>If during the Declare Charges &amp; Charge Reactions sub-phase of its turn, a unit that includes one or more Impetuous models is able to declare a charge, it must make a Leadership test. If this test is failed, the unit must declare a charge. If this test is passed, the unit may act as normal.</description>
+    </rule>
     <rule id="6202-62c7-86a8-3919" name="Levies" publicationId="5fe9-85b6-a584-6dfe" page="172" hidden="false"/>
     <rule id="ef04-7de6-1298-9ae4" name="Loner" publicationId="5fe9-85b6-a584-6dfe" page="172" hidden="false"/>
     <rule id="94c4-3add-0704-8c04" name="Magical Attacks" publicationId="5fe9-85b6-a584-6dfe" page="172" hidden="false"/>
     <rule id="f3a4-853c-22a7-8523" name="Mercenaries" publicationId="5fe9-85b6-a584-6dfe" page="173" hidden="false"/>
-    <rule id="17bb-4ccf-1b37-312e" name="Monster Handlers" publicationId="5fe9-85b6-a584-6dfe" page="173" hidden="false"/>
+    <rule id="17bb-4ccf-1b37-312e" name="Monster Handlers" publicationId="5fe9-85b6-a584-6dfe" page="173" hidden="false">
+      <description>A monster with this special rule is accompanied by one or more models representing its handlers. During deployment, position these models anywhere that is adjacent to, and in base contact with, the monster. If the handlers are found to be blocking movement or line of sight, simply move them aside.
+
+In combat, each handler adds its attacks to those of the monster. If the monster suffers an unsaved wound, roll a D6. On a roll of a 1-4 the monster loses a Wound, but on a roll of 5+ one of the handlers is removed instead. If the monster is removed from play, so are its handlers.</description>
+    </rule>
     <rule id="df94-86c6-96d7-d061" name="Monster Slayer" publicationId="5fe9-85b6-a584-6dfe" page="173" hidden="false"/>
     <rule id="854b-2832-cd0e-1835" name="Motley Crew" publicationId="5fe9-85b6-a584-6dfe" page="174" hidden="false"/>
     <rule id="57b7-26aa-873a-5131" name="Move &amp; Shoot" publicationId="5fe9-85b6-a584-6dfe" page="174" hidden="false"/>
@@ -1249,7 +1309,7 @@ Note that this special rule is not cumulative. If two or more models in a unit h
 Note that this special rule is not cumulative. If two or more models in a unit have this special rule, use the highest modifier.</description>
     </rule>
     <rule id="d803-3575-3b4e-dfe7" name="Fly (10)" publicationId="5fe9-85b6-a584-6dfe" page="170" hidden="false">
-      <description> A model with this special rule can Fly. Models that can Fly can choose either to move normally on the ground (using their Movement characteristic), or to move by flying. This model can fly 10&quot; by flying. Models that choose to move by flying:
+      <description>Except when following up or pursuing, a model with this special rule can choose to move my flying through the air, rather than moving across the ground as normal. When a model flies it uses a special &apos;Fly Movement&apos; characteristic, this model can fly 10&quot;. Models that choose to move by flying:
 
 * May move as normal(i.e., they may charge, march and manoeuvre as if moving on the ground), except that they are able to pass freely above other models, units and terrain features without any penalty, and they can march whilst within 8&quot; of an enemy unit without first having to make a Leadership test.
 
@@ -1261,24 +1321,16 @@ Models that can Fly must begin and end all of their movement on the ground. A ch
       <description>A model with this special rule may re-roll any failed rolls To Hit made against any enemy during the first round of combat.</description>
     </rule>
     <rule id="2fc7-ae54-b7b6-a3a1" name="Regeneration (4+)" publicationId="5fe9-85b6-a584-6dfe" page="176" hidden="false">
-      <description> A model with this special rule can make a ‘Regeneration’ save. The armour value of this unit&apos;s Regeneration save is 4+. A Regeneration save can never be modified by the AP characteristic of a weapon and can be made in addition to an armour save and a Ward save. However, any wounds saved by a Regeneration save are still counted for the purposes of calculating the combat result.
-
- Note that models with this special rule are often vulnerable to the Flaming Attacks or Magical Attacks special rules.</description>
+      <description>Immediately after a Wound is lost, but before models with zero Wounds remaining are removed from play, a model with this special rule may make a &apos;Regeneration save&apos; roll by rolling a D6 and comparing the result to its &apos;Regeneration value,&apos; which is 4+. If the Regeneration save roll equals or exceeds the model&apos;s Regeneration value, the lost Wound is recovered, but is still counted for the purposes of calculating the combat result. Rules that affect armour values do not affect Regeneration values unless stated otherwise.</description>
     </rule>
     <rule id="6917-6443-03f5-2f38" name="Regeneration (5+)" publicationId="5fe9-85b6-a584-6dfe" page="176" hidden="false">
-      <description> A model with this special rule can make a ‘Regeneration’ save. The armour value of this unit&apos;s Regeneration save is 5+. A Regeneration save can never be modified by the AP characteristic of a weapon and can be made in addition to an armour save and a Ward save. However, any wounds saved by a Regeneration save are still counted for the purposes of calculating the combat result.
-
- Note that models with this special rule are often vulnerable to the Flaming Attacks or Magical Attacks special rules.</description>
+      <description>Immediately after a Wound is lost, but before models with zero Wounds remaining are removed from play, a model with this special rule may make a &apos;Regeneration save&apos; roll by rolling a D6 and comparing the result to its &apos;Regeneration value,&apos; which is 5+. If the Regeneration save roll equals or exceeds the model&apos;s Regeneration value, the lost Wound is recovered, but is still counted for the purposes of calculating the combat result. Rules that affect armour values do not affect Regeneration values unless stated otherwise.</description>
     </rule>
     <rule id="4e38-fb85-b662-4944" name="Regeneration (3+)" publicationId="5fe9-85b6-a584-6dfe" page="176" hidden="false">
-      <description> A model with this special rule can make a ‘Regeneration’ save. The armour value of this unit&apos;s Regeneration save is 3+. A Regeneration save can never be modified by the AP characteristic of a weapon and can be made in addition to an armour save and a Ward save. However, any wounds saved by a Regeneration save are still counted for the purposes of calculating the combat result.
-
- Note that models with this special rule are often vulnerable to the Flaming Attacks or Magical Attacks special rules.</description>
+      <description>Immediately after a Wound is lost, but before models with zero Wounds remaining are removed from play, a model with this special rule may make a &apos;Regeneration save&apos; roll by rolling a D6 and comparing the result to its &apos;Regeneration value,&apos; which is 3+. If the Regeneration save roll equals or exceeds the model&apos;s Regeneration value, the lost Wound is recovered, but is still counted for the purposes of calculating the combat result. Rules that affect armour values do not affect Regeneration values unless stated otherwise.</description>
     </rule>
     <rule id="4ab6-406d-e6ba-c3a0" name="Regeneration (6+)" publicationId="5fe9-85b6-a584-6dfe" page="176" hidden="false">
-      <description> A model with this special rule can make a ‘Regeneration’ save. The armour value of this unit&apos;s Regeneration save is 6+. A Regeneration save can never be modified by the AP characteristic of a weapon and can be made in addition to an armour save and a Ward save. However, any wounds saved by a Regeneration save are still counted for the purposes of calculating the combat result.
-
- Note that models with this special rule are often vulnerable to the Flaming Attacks or Magical Attacks special rules.</description>
+      <description>Immediately after a Wound is lost, but before models with zero Wounds remaining are removed from play, a model with this special rule may make a &apos;Regeneration save&apos; roll by rolling a D6 and comparing the result to its &apos;Regeneration value,&apos; which is 6+. If the Regeneration save roll equals or exceeds the model&apos;s Regeneration value, the lost Wound is recovered, but is still counted for the purposes of calculating the combat result. Rules that affect armour values do not affect Regeneration values unless stated otherwise.</description>
     </rule>
   </sharedRules>
   <sharedProfiles>
@@ -1341,15 +1393,17 @@ Models that can Fly must begin and end all of their movement on the ground. A ch
     <profile id="ab31-cd86-fb1c-ff37" name="Flail" publicationId="5fe9-85b6-a584-6dfe" page="214" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="52616e676523232344415441232323">Combat</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">+2 in first round of close combat</characteristic>
+        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">+2</characteristic>
         <characteristic name="Armor Piercing" typeId="29b7-bacf-c845-c96c">-2</characteristic>
-        <characteristic name="Special Rules" typeId="ca33-106b-5e61-5a3c">Requires Two Hands</characteristic>
+        <characteristic name="Special Rules" typeId="ca33-106b-5e61-5a3c">Armour Bane (1), Requires Two Hands
+
+A flail&apos;s Strength modifier and Armour Bane (1) special rule apply only against enemy models the wielder charged this turn.</characteristic>
       </characteristics>
     </profile>
     <profile id="a088-d26f-3db7-2f48" name="Great Weapon" publicationId="5fe9-85b6-a584-6dfe" page="214" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="52616e676523232344415441232323">Combat</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">&apos;+2</characteristic>
+        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">+2</characteristic>
         <characteristic name="Armor Piercing" typeId="29b7-bacf-c845-c96c">-2</characteristic>
         <characteristic name="Special Rules" typeId="ca33-106b-5e61-5a3c">Armor Bane (1), Requires Two Hands, Strike Last</characteristic>
       </characteristics>
@@ -1357,9 +1411,11 @@ Models that can Fly must begin and end all of their movement on the ground. A ch
     <profile id="93fb-308e-d592-4740" name="Halberd" publicationId="5fe9-85b6-a584-6dfe" page="214" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="52616e676523232344415441232323">Combat</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">&apos;+1</characteristic>
-        <characteristic name="Armor Piercing" typeId="29b7-bacf-c845-c96c">-1</characteristic>
-        <characteristic name="Special Rules" typeId="ca33-106b-5e61-5a3c">Armor Bane (1), Requires Two Hands</characteristic>
+        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">+1</characteristic>
+        <characteristic name="Armor Piercing" typeId="29b7-bacf-c845-c96c">-1 (-2)</characteristic>
+        <characteristic name="Special Rules" typeId="ca33-106b-5e61-5a3c">Armor Bane (1), Requires Two Hands
+
+A hallberd has an AP of -2 against enemy models the wielder charged this turn.</characteristic>
       </characteristics>
     </profile>
     <profile id="c148-c9dc-176e-bf50" name="Hand Weapon" publicationId="5fe9-85b6-a584-6dfe" page="213" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
@@ -1391,7 +1447,9 @@ Models that can Fly must begin and end all of their movement on the ground. A ch
         <characteristic name="Range" typeId="52616e676523232344415441232323">Combat</characteristic>
         <characteristic name="Strength" typeId="537472656e67746823232344415441232323">+2 on the charge</characteristic>
         <characteristic name="Armor Piercing" typeId="29b7-bacf-c845-c96c">-2</characteristic>
-        <characteristic name="Special Rules" typeId="ca33-106b-5e61-5a3c">Armor Bane (1)</characteristic>
+        <characteristic name="Special Rules" typeId="ca33-106b-5e61-5a3c">Armor Bane (1)
+
+Models whose troop type is &apos;cavalry&apos; or &apos;monster&apos; only. A lance can only be used during a turn in which the wielder charged, and its Strength and Armour Piercing modifiers apply only against enemy models the wielder charged that turn.</characteristic>
       </characteristics>
     </profile>
     <profile id="1226-739f-7dd5-9fa0" name="Longbow" publicationId="5fe9-85b6-a584-6dfe" page="216" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
@@ -1405,9 +1463,11 @@ Models that can Fly must begin and end all of their movement on the ground. A ch
     <profile id="1ce6-f3ab-2caf-1bb9" name="Morning Star" publicationId="5fe9-85b6-a584-6dfe" page="214" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="52616e676523232344415441232323">Combat</characteristic>
-        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">+1 in first round of close combat</characteristic>
+        <characteristic name="Strength" typeId="537472656e67746823232344415441232323">+1</characteristic>
         <characteristic name="Armor Piercing" typeId="29b7-bacf-c845-c96c">-1</characteristic>
-        <characteristic name="Special Rules" typeId="ca33-106b-5e61-5a3c">1</characteristic>
+        <characteristic name="Special Rules" typeId="ca33-106b-5e61-5a3c">Armour Bane (1)
+
+A morning star&apos;s Strength modifier and Armour Bane (1) special rule apply only against enemy models the wielder charged this turn.</characteristic>
       </characteristics>
     </profile>
     <profile id="1342-0afa-d726-9f0c" name="Pistol" publicationId="5fe9-85b6-a584-6dfe" page="217" hidden="false" typeId="576561706f6e23232344415441232323" typeName="Weapon">
