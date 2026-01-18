@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="182d-142e-2430-0f64" name="Empire Of Man" revision="1" battleScribeVersion="2.03" authorName="CSB Software" authorContact="birddiesoftware@gmail.com" library="false" gameSystemId="c46c-ea3c-1fc5-3d88" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="182d-142e-2430-0f64" name="Empire Of Man" revision="1" battleScribeVersion="2.03" authorName="CSB Software" authorContact="birddiesoftware@gmail.com" authorUrl="https://birddie721.github.io/" library="false" gameSystemId="c46c-ea3c-1fc5-3d88" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="07db-a771-5d74-f34d" name="Arcane Journal - Empire of Man" shortName="AJ"/>
   </publications>
@@ -14928,6 +14928,9 @@ The wielder of this weapon does not suffer the usual-1 modifier for shooting at 
         <entryLink id="f927-c61a-9bd8-1cb7" name="FoF - Book Of Ashur" hidden="false" collective="false" import="true" targetId="2854-73b6-b571-f6c9" type="selectionEntry"/>
         <entryLink id="f622-5ff0-3ea2-fd58" name="FoF - Wizard&apos;s Familiar*" hidden="false" collective="false" import="true" targetId="236a-f5b3-9c0d-6917" type="selectionEntry"/>
         <entryLink id="6ee8-e395-7862-8fbe" name="FoF - Wizard&apos;s Staff*" hidden="false" collective="false" import="true" targetId="a1ba-4c1e-01b5-21bd" type="selectionEntry"/>
+        <entryLink id="2324-952b-bb3d-de74" name="AJ - Twin-Tailed Wand" hidden="false" collective="false" import="true" targetId="696f-7d37-0d14-8909" type="selectionEntry"/>
+        <entryLink id="07d4-a15f-5e06-3adf" name="AJ - Tome Of Midnight" hidden="false" collective="false" import="true" targetId="d618-7d05-0a79-33cb" type="selectionEntry"/>
+        <entryLink id="589b-d6ea-d38e-14fe" name="AJ - Crystal Ball" hidden="false" collective="false" import="true" targetId="ccc4-b651-f162-dbcf" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="0a0c-0bc5-c226-14f7" name="Enchanted Items" hidden="false" collective="false" import="true">
@@ -14943,6 +14946,9 @@ The wielder of this weapon does not suffer the usual-1 modifier for shooting at 
         <entryLink id="1937-fbee-a649-ebdc" name="FoF - Laurels Of Victory" hidden="false" collective="false" import="true" targetId="e9ef-76d0-0dae-d857" type="selectionEntry"/>
         <entryLink id="f53d-9889-c6b7-72f7" name="FoF - The Silver Horn" hidden="false" collective="false" import="true" targetId="939a-ef9d-0814-8ec3" type="selectionEntry"/>
         <entryLink id="b305-c55c-895c-de7d" name="FoF - Shroud Of Iron" hidden="false" collective="false" import="true" targetId="1e5f-a649-5b4d-a43a" type="selectionEntry"/>
+        <entryLink id="ebab-7ef0-bf73-3e8a" name="AJ - Ring Of Fortune" hidden="false" collective="false" import="true" targetId="cff0-c833-5098-79b8" type="selectionEntry"/>
+        <entryLink id="c01b-4374-a66e-1143" name="AJ - Ring Of Taal" hidden="false" collective="false" import="true" targetId="b46b-c073-9ccd-fa93" type="selectionEntry"/>
+        <entryLink id="eaca-1f49-4162-afed" name="AJ - Squintsoffen&apos;s Marvellous Magnifier*" hidden="false" collective="false" import="true" targetId="f872-2c83-950d-577a" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="de72-8296-8148-5d39" name="Magic Armor" hidden="false" collective="false" import="true">
@@ -14957,6 +14963,8 @@ The wielder of this weapon does not suffer the usual-1 modifier for shooting at 
         <entryLink id="71a2-ba38-0f5b-5727" name="BRB - Shield Of The Warrior True" hidden="false" collective="false" import="true" targetId="6a7f-5833-1ec2-edcb" type="selectionEntry"/>
         <entryLink id="f5a5-4005-9ea3-d723" name="BRB - Spellshield*" hidden="false" collective="false" import="true" targetId="e79c-95a6-b481-cf9a" type="selectionEntry"/>
         <entryLink id="11b0-db4c-d9c0-dc89" name="FoF - Armour Of Fortune" hidden="false" collective="false" import="true" targetId="ce43-61e8-5bac-361a" type="selectionEntry"/>
+        <entryLink id="0a7f-9d9f-83c3-d02d" name="AJ - Twice-Blessed Armour" hidden="false" collective="false" import="true" targetId="dec2-7792-c0cb-4449" type="selectionEntry"/>
+        <entryLink id="0100-bcec-3413-6926" name="AJ - Shield Of The Gorgon" hidden="false" collective="false" import="true" targetId="5f12-b0d3-b757-5fdc" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="30d8-fafe-be52-747c" name="Magic Standards" hidden="false" collective="false" import="true">
@@ -14973,6 +14981,9 @@ The wielder of this weapon does not suffer the usual-1 modifier for shooting at 
         <entryLink id="eb82-292c-a7ae-3311" name="FoF - Imperial Banner" hidden="false" collective="false" import="true" targetId="fe9f-72a2-22ca-bbf2" type="selectionEntry"/>
         <entryLink id="47e5-9b65-4fbc-a63d" name="FoF - The Gleaming Pennant" hidden="false" collective="false" import="true" targetId="8233-30aa-6edf-3e86" type="selectionEntry"/>
         <entryLink id="1d90-af55-704d-bc41" name="FoF - Griffon Standard" hidden="false" collective="false" import="true" targetId="026b-dc4d-cec3-11f8" type="selectionEntry"/>
+        <entryLink id="8bce-1e91-afaf-b271" name="AJ - Tapestry Of Sigmar&apos;s Triumph" hidden="false" collective="false" import="true" targetId="7745-5197-bfca-d7af" type="selectionEntry"/>
+        <entryLink id="e497-8a93-e1eb-dde9" name="AJ - Icon Of Morr" hidden="false" collective="false" import="true" targetId="5499-5651-32ed-3ede" type="selectionEntry"/>
+        <entryLink id="9f45-fb29-0e1b-45a8" name="AJ - The Banner Of The Free State Of Nuln" hidden="false" collective="false" import="true" targetId="8fee-d451-517e-3e43" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="501d-fc8a-1832-9004" name="Magic Weapons" hidden="false" collective="false" import="true">
@@ -14996,6 +15007,10 @@ The wielder of this weapon does not suffer the usual-1 modifier for shooting at 
         <entryLink id="6fda-664c-9bf3-fb4c" name="FoF - Mace Of Helsturm" hidden="false" collective="false" import="true" targetId="2de0-881e-b40e-c717" type="selectionEntry"/>
         <entryLink id="aecd-b83d-5d50-01ac" name="FoF - Runefang" hidden="false" collective="false" import="true" targetId="8f6d-9ddb-12f7-2bb1" type="selectionEntry"/>
         <entryLink id="48b7-2af8-0ab1-1a74" name="FoF - Sword Of Justice" hidden="false" collective="false" import="true" targetId="c741-dfed-fbcd-6454" type="selectionEntry"/>
+        <entryLink id="5e0a-fa12-a42b-115c" name="AJ - Hammer Of Righteousness" hidden="false" collective="false" import="true" targetId="dee5-30dd-5d13-893f" type="selectionEntry"/>
+        <entryLink id="6a06-7eec-822e-90e3" name="AJ - Pearl Daggers" hidden="false" collective="false" import="true" targetId="647f-669a-d97b-158e" type="selectionEntry"/>
+        <entryLink id="0fc6-d929-10d5-106c" name="AJ - Blade Of Silvered Steel" hidden="false" collective="false" import="true" targetId="8d58-7aef-b79c-938d" type="selectionEntry"/>
+        <entryLink id="95cf-dbbb-e5f3-510c" name="AJ - Von Trickschotte&apos;s Wonderous Arquebus" hidden="false" collective="false" import="true" targetId="9d93-5424-7525-ae23" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="1144-bbd0-f152-ae69" name="Talismans" hidden="false" collective="false" import="true">
@@ -15006,6 +15021,8 @@ The wielder of this weapon does not suffer the usual-1 modifier for shooting at 
         <entryLink id="f90b-868a-decf-e6e7" name="BRB - Talisman Of Protection" hidden="false" collective="false" import="true" targetId="f181-5d69-cf17-145a" type="selectionEntry"/>
         <entryLink id="c258-162d-928a-f339" name="FoF - The White Cloak" hidden="false" collective="false" import="true" targetId="f278-2900-9254-e110" type="selectionEntry"/>
         <entryLink id="cc77-58fd-2901-b976" name="FoF - Jade Amulet*" hidden="false" collective="false" import="true" targetId="0e0e-bfaf-8f56-a01e" type="selectionEntry"/>
+        <entryLink id="feb0-3615-ed63-0e73" name="AJ - Witch Hunter&apos;s Ward*" hidden="false" collective="false" import="true" targetId="4c98-8543-2b0f-42a7" type="selectionEntry"/>
+        <entryLink id="5edc-49ec-56d4-309f" name="AJ - Slayer&apos;s Hourglass" hidden="false" collective="false" import="true" targetId="133e-eb06-8119-6ac5" type="selectionEntry"/>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="4752-a00a-2cef-b917" name="Weapon Runes" publicationId="5cca-edd4-43a8-7719" page="33" hidden="false" collective="false" import="true">
