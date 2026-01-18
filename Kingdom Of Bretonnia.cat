@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="d603-3868-e2e1-6f54" name="Kingdom Of Bretonnia" revision="1" battleScribeVersion="2.03" authorName="Birddie Software" authorContact="birddiesoftware@gmail.com" library="false" gameSystemId="c46c-ea3c-1fc5-3d88" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="d603-3868-e2e1-6f54" name="Kingdom Of Bretonnia" revision="1" battleScribeVersion="2.03" authorName="CSB Software" authorContact="birddiesoftware@gmail.com" authorUrl="https://birddie721.github.io/" library="false" gameSystemId="c46c-ea3c-1fc5-3d88" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="6259-c285-baa7-2aed" name="Arcane Journal - Kingdom Of Bretonnia" shortName="AJ"/>
   </publications>
@@ -491,6 +491,7 @@
         <selectionEntry id="d285-d42c-8941-5e02" name="Battle Standard Bearer" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a454-0bbf-6e65-cd5f" type="max"/>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="true" id="d244-7eb5-3cd1-124f" type="max"/>
           </constraints>
           <entryLinks>
             <entryLink id="ac29-0f51-79c0-e363" name="Magic Standards" hidden="false" collective="false" import="true" targetId="3229-9f42-8aa9-7d4b" type="selectionEntryGroup">

@@ -2682,6 +2682,9 @@ A model equipped with a lash &amp; buckler improves its armour value by 1.</char
               <infoLinks>
                 <infoLink id="0345-9faf-0948-09e1" name="Fire &amp; Flee" hidden="false" targetId="5e33-78c7-4337-ab45" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="e61f-d32b-0288-be9a" name="Scouts" hidden="false" collective="true" import="true" type="upgrade">
               <modifiers>
@@ -2703,6 +2706,9 @@ A model equipped with a lash &amp; buckler improves its armour value by 1.</char
               <infoLinks>
                 <infoLink id="a995-f899-1842-b05d" name="Scouts" hidden="false" targetId="9083-dd44-53fb-9a0d" type="rule"/>
               </infoLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -3804,7 +3810,7 @@ Note that this modifier is not cumulative</description>
         <infoLink id="60ad-0945-dccc-922b" name="Swiftstride" hidden="false" targetId="fdf8-c51a-139f-b492" type="rule"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="18.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0b26-1d7f-72a2-d925" name="Dark Pegasus" hidden="false" collective="false" import="true" type="upgrade">
